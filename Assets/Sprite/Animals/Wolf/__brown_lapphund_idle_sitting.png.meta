@@ -1,0 +1,656 @@
+fileFormatVersion: 2
+guid: ba4fdb6546411564da7717c62a301ac6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5190553073234686325
+    second: __brown_lapphund_idle_sitting_0
+  - first:
+      213: 5922451428993524528
+    second: __brown_lapphund_idle_sitting_1
+  - first:
+      213: -3069763682523730147
+    second: __brown_lapphund_idle_sitting_2
+  - first:
+      213: -9194433371687869017
+    second: __brown_lapphund_idle_sitting_3
+  - first:
+      213: -5047847963998666363
+    second: __brown_lapphund_idle_sitting_4
+  - first:
+      213: -4410492731228010317
+    second: __brown_lapphund_idle_sitting_5
+  - first:
+      213: 5533663150613740162
+    second: __brown_lapphund_idle_sitting_6
+  - first:
+      213: 4692074723985073120
+    second: __brown_lapphund_idle_sitting_7
+  - first:
+      213: 4034560414522743789
+    second: __brown_lapphund_idle_sitting_8
+  - first:
+      213: -4978538180811446940
+    second: __brown_lapphund_idle_sitting_9
+  - first:
+      213: 7407134236501850252
+    second: __brown_lapphund_idle_sitting_10
+  - first:
+      213: 5112815123872913998
+    second: __brown_lapphund_idle_sitting_11
+  - first:
+      213: 9047752727518942370
+    second: __brown_lapphund_idle_sitting_12
+  - first:
+      213: 5462663600337162011
+    second: __brown_lapphund_idle_sitting_13
+  - first:
+      213: 2967932436603316522
+    second: __brown_lapphund_idle_sitting_14
+  - first:
+      213: 6803293907157545793
+    second: __brown_lapphund_idle_sitting_15
+  - first:
+      213: 387573474635428087
+    second: __brown_lapphund_idle_sitting_16
+  - first:
+      213: -5140875645383208691
+    second: __brown_lapphund_idle_sitting_17
+  - first:
+      213: -7887799798272598961
+    second: __brown_lapphund_idle_sitting_18
+  - first:
+      213: 4819081815934326611
+    second: __brown_lapphund_idle_sitting_19
+  - first:
+      213: 5908553652021811885
+    second: __brown_lapphund_idle_sitting_0
+  - first:
+      213: -2238545982307192347
+    second: __brown_lapphund_idle_sitting_1
+  - first:
+      213: -4256791561563882651
+    second: __brown_lapphund_idle_sitting_2
+  - first:
+      213: -5651619614107574979
+    second: __brown_lapphund_idle_sitting_3
+  - first:
+      213: 6761990470962877781
+    second: __brown_lapphund_idle_sitting_4
+  - first:
+      213: -2811676793670953064
+    second: __brown_lapphund_idle_sitting_5
+  - first:
+      213: -3155606656060594747
+    second: __brown_lapphund_idle_sitting_6
+  - first:
+      213: 1002837400876604685
+    second: __brown_lapphund_idle_sitting_7
+  - first:
+      213: -5215230181581634717
+    second: __brown_lapphund_idle_sitting_8
+  - first:
+      213: 8120756660776504598
+    second: __brown_lapphund_idle_sitting_9
+  - first:
+      213: 2773883727942290017
+    second: __brown_lapphund_idle_sitting_10
+  - first:
+      213: 2366279985227504856
+    second: __brown_lapphund_idle_sitting_11
+  - first:
+      213: -4535753332028356614
+    second: __brown_lapphund_idle_sitting_12
+  - first:
+      213: 9159085793192582523
+    second: __brown_lapphund_idle_sitting_13
+  - first:
+      213: 5530766994800446814
+    second: __brown_lapphund_idle_sitting_14
+  - first:
+      213: -4664809114020785028
+    second: __brown_lapphund_idle_sitting_15
+  - first:
+      213: -376117225180078866
+    second: __brown_lapphund_idle_sitting_16
+  - first:
+      213: -2375577696464126714
+    second: __brown_lapphund_idle_sitting_17
+  - first:
+      213: -7536064092296503432
+    second: __brown_lapphund_idle_sitting_18
+  - first:
+      213: -7243795463397097314
+    second: __brown_lapphund_idle_sitting_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: __brown_lapphund_idle_sitting_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1684
+        width: 522
+        height: 537
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daad81ddd366ff150800000000000000
+      internalID: 5908553652021811885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __brown_lapphund_idle_sitting_1
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1684
+        width: 522
+        height: 537
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1b3371a461fe0e0800000000000000
+      internalID: -2238545982307192347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __brown_lapphund_idle_sitting_2
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 1684
+        width: 522
+        height: 537
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bba12d0a6dce4c0800000000000000
+      internalID: -4256791561563882651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __brown_lapphund_idle_sitting_3
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 1684
+        width: 522
+        height: 537
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ddc7f87e96191b0800000000000000
+      internalID: -5651619614107574979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __brown_lapphund_idle_sitting_4
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 1684
+        width: 522
+        height: 537
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555915cb18a67dd50800000000000000
+      internalID: 6761990470962877781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __brown_lapphund_idle_sitting_5
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1126
+        width: 522
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89798026adaeaf8d0800000000000000
+      internalID: -2811676793670953064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __brown_lapphund_idle_sitting_6
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1126
+        width: 522
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c566a627780534d0800000000000000
+      internalID: -3155606656060594747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __brown_lapphund_idle_sitting_7
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 1126
+        width: 522
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0dd9b68d4bcaed00800000000000000
+      internalID: 1002837400876604685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __brown_lapphund_idle_sitting_8
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 1126
+        width: 522
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3634ee408c7cf97b0800000000000000
+      internalID: -5215230181581634717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __brown_lapphund_idle_sitting_9
+      rect:
+        serializedVersion: 2
+        x: 2270
+        y: 1126
+        width: 522
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d88f84829b2b070800000000000000
+      internalID: 8120756660776504598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __brown_lapphund_idle_sitting_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 570
+        width: 522
+        height: 540
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a8c3ccd80de7620800000000000000
+      internalID: 2773883727942290017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __brown_lapphund_idle_sitting_11
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 570
+        width: 522
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc1a960c17b6d020800000000000000
+      internalID: 2366279985227504856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __brown_lapphund_idle_sitting_12
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 570
+        width: 522
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7c7af3064cd01c0800000000000000
+      internalID: -4535753332028356614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __brown_lapphund_idle_sitting_13
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 570
+        width: 522
+        height: 538
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d1292800c9b1f70800000000000000
+      internalID: 9159085793192582523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __brown_lapphund_idle_sitting_14
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 570
+        width: 522
+        height: 537
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d098c474b31cc40800000000000000
+      internalID: 5530766994800446814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __brown_lapphund_idle_sitting_15
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 12
+        width: 522
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7459c573d4434fb0800000000000000
+      internalID: -4664809114020785028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __brown_lapphund_idle_sitting_16
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 12
+        width: 522
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec5c3f5063c7caf0800000000000000
+      internalID: -376117225180078866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __brown_lapphund_idle_sitting_17
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 12
+        width: 522
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d3ae1eba0480fd0800000000000000
+      internalID: -2375577696464126714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __brown_lapphund_idle_sitting_18
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 12
+        width: 522
+        height: 539
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f1716c2a58a6790800000000000000
+      internalID: -7536064092296503432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __brown_lapphund_idle_sitting_19
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 12
+        width: 522
+        height: 538
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9041a2c76ed87b90800000000000000
+      internalID: -7243795463397097314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
