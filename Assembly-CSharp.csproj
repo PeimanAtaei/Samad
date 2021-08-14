@@ -102,6 +102,7 @@
     <Compile Include="Assets\Script\MenuScript\LanguageSc.cs" />
     <Compile Include="Assets\Script\AnimalScript\Chicken.cs" />
     <Compile Include="Assets\Script\PlayerScript\MasterController.cs" />
+    <Compile Include="Assets\Script\MenuScript\HelpSc.cs" />
     <Compile Include="Assets\Script\LevelsScript\AutoDestroyObject.cs" />
     <Compile Include="Assets\bobardo IAB\SimpleJSON.cs" />
     <Compile Include="Assets\Script\PlayerScript\PlayerBody.cs" />
@@ -112,7 +113,6 @@
     <Compile Include="Assets\Script\GunScript\YellowBullet.cs" />
     <Compile Include="Assets\Script\PlayerScript\ShowVelocity.cs" />
     <Compile Include="Assets\Script\Items\Chest.cs" />
-    <Compile Include="Assets\Script\MenuScript\HelpSc.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\bobardo IAB\LICENSE.txt" />
