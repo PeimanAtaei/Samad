@@ -78,6 +78,7 @@
     <Compile Include="Assets\Script\PlayerScript\GunController.cs" />
     <Compile Include="Assets\Script\MenuScript\QuestManagerSc.cs" />
     <Compile Include="Assets\Script\MenuScript\BackMusic.cs" />
+    <Compile Include="Assets\Script\Obstacles\Bomb.cs" />
     <Compile Include="Assets\Script\PlayerScript\GameUIController.cs" />
     <Compile Include="Assets\Script\PlayerScript\ShieldSc.cs" />
     <Compile Include="Assets\Script\MenuScript\Swipemenu.cs" />
@@ -113,6 +114,7 @@
     <Compile Include="Assets\Script\GunScript\YellowBullet.cs" />
     <Compile Include="Assets\Script\PlayerScript\ShowVelocity.cs" />
     <Compile Include="Assets\Script\Items\Chest.cs" />
+    <Compile Include="Assets\Script\Platforms\FallenPlat.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\bobardo IAB\LICENSE.txt" />

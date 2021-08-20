@@ -35,7 +35,7 @@ public class GunController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
 		//angle = Mathf.Atan2(joystick.Horizontal, joystick.Vertical) * Mathf.Rad2Deg;
 		if (joystick == null || firePoint==null || gun==null || gunSounds==null ) {

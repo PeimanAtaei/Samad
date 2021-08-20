@@ -16,7 +16,7 @@ public class TestLine : MonoBehaviour {
 	{
 		master = FindObjectOfType<MasterController> ();
 	}
-	void Update () {
+	void FixedUpdate() {
 
 		/*if(canInstantiate)
 		{
