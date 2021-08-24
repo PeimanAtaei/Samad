@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Cinemachine;
 
 public class MasterController : MonoBehaviour {
 
@@ -12,13 +13,13 @@ public class MasterController : MonoBehaviour {
 	public GameObject canvas,deadScreen,motor,musicAudio;
 	private Rigidbody2D playerRG;
 	private Motory theMotory;
-	private ControlCamera controllCamera;
 	private GameUIController gameUIController;
 	private GunController gunController;
 	public int      levelNumber,coinCount, bulletCount, shieldCount, rockCount,checkPointRocks,deadCount = 0;
 	public Text     coinText,bulletText,ShieldText,rockText;
 	public GameObject loadingPage,finishPage;
 	private Animator finishAnim;
+	public CinemachineVirtualCamera CM1;
 
 
 	// LoadCheckPoint
@@ -38,10 +39,10 @@ public class MasterController : MonoBehaviour {
 		playerRG = GetComponent<Rigidbody2D>();
 		theMotory = FindObjectOfType<Motory>();
 		gameUIController = FindObjectOfType<GameUIController>();
-		controllCamera = FindObjectOfType<ControlCamera>();
 		gunController = FindObjectOfType<GunController>();
 		enginAudio = GameObject.Find ("MasterController/EnginAudio").GetComponent<AudioSource> ();
 		checkPointRocks = rockCount;
+		CM1 = FindObjectOfType<CinemachineVirtualCamera>();
 
 		canvas = GameObject.Find ("Canvas");
 		loadingPage = GameObject.Find("gameLoading");
@@ -89,7 +90,6 @@ public class MasterController : MonoBehaviour {
 			enginAudio.Stop();
 			deadScreen.SetActive(true);
 			SaveData();
-			controllCamera.endGame = true;
 			PlayerPrefs.SetInt("totalDead", PlayerPrefs.GetInt("totalDead") + 1);
 		}
 	}
@@ -101,8 +101,6 @@ public class MasterController : MonoBehaviour {
 			canDie = false;
 			masterAudio.clip = gameSounds[1];
 			masterAudio.Play();
-
-			controllCamera.endGame = true;
 			finishPage.SetActive(true);
 			finishAnim = finishPage.GetComponent<Animator>();
 
@@ -142,6 +140,7 @@ public class MasterController : MonoBehaviour {
 				lastCheckPoint.position,
 				lastCheckPoint.rotation) as GameObject;
 		motorInstance.name = "Player";
+		CM1.Follow = motorInstance.transform;
 
 
 		backGround = GameObject.Find ("BackGround");
@@ -151,10 +150,6 @@ public class MasterController : MonoBehaviour {
 		turbo = GameObject.Find ("TakeOff");
 		Turbo turboSc = (Turbo)turbo.GetComponent (typeof(Turbo));
 		turboSc.SetTaregt ();
-
-		mainCamera = GameObject.FindGameObjectWithTag ("MainCamera");
-		ControlCamera controlCamera = (ControlCamera)mainCamera.GetComponent (typeof(ControlCamera));
-		controlCamera.endGame = false;
 
 		if (gunController.gunIsUsed) {
 			gameUIController.GunBtn ();

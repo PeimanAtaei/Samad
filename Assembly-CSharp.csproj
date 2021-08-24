@@ -8,8 +8,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
-    <ProjectGuid>{4E87552E-3A49-B7EE-9EEF-62E61D817C31}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectGuid>{B297705D-B2B0-CC77-38B5-335F960E2B63}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -62,7 +63,6 @@
     <Compile Include="Assets\Script\MapSc\LevelButtonSc.cs" />
     <Compile Include="Assets\Script\PlayerScript\DestroyObjects.cs" />
     <Compile Include="Assets\Script\LevelsScript\MovingLands.cs" />
-    <Compile Include="Assets\bobardo IAB\InAppStore.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Script\MenuScript\QuestList.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
@@ -84,7 +84,6 @@
     <Compile Include="Assets\Script\MenuScript\Swipemenu.cs" />
     <Compile Include="Assets\Script\EnemyScript\entsShower.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
-    <Compile Include="Assets\Script\PlayerScript\ControlCamera.cs" />
     <Compile Include="Assets\Script\MenuScript\AchievedQuests.cs" />
     <Compile Include="Assets\Script\GunScript\ExployScript.cs" />
     <Compile Include="Assets\Script\LevelsScript\LanguageScript.cs" />
@@ -97,7 +96,7 @@
     <Compile Include="Assets\Script\MapSc\MapManager.cs" />
     <Compile Include="Assets\Script\PlayerScript\Turbo.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
-    <Compile Include="Assets\bobardo IAB\StoreHandler.cs" />
+    <Compile Include="Assets\Script\Platforms\FallenPlat.cs" />
     <Compile Include="Assets\Script\Alarms\AlarmManager.cs" />
     <Compile Include="Assets\Script\StorySc\StoryManager.cs" />
     <Compile Include="Assets\Script\MenuScript\LanguageSc.cs" />
@@ -105,7 +104,6 @@
     <Compile Include="Assets\Script\PlayerScript\MasterController.cs" />
     <Compile Include="Assets\Script\MenuScript\HelpSc.cs" />
     <Compile Include="Assets\Script\LevelsScript\AutoDestroyObject.cs" />
-    <Compile Include="Assets\bobardo IAB\SimpleJSON.cs" />
     <Compile Include="Assets\Script\PlayerScript\PlayerBody.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
     <Compile Include="Assets\Script\MenuScript\Coins.cs" />
@@ -114,10 +112,8 @@
     <Compile Include="Assets\Script\GunScript\YellowBullet.cs" />
     <Compile Include="Assets\Script\PlayerScript\ShowVelocity.cs" />
     <Compile Include="Assets\Script\Items\Chest.cs" />
-    <Compile Include="Assets\Script\Platforms\FallenPlat.cs" />
   </ItemGroup>
   <ItemGroup>
-     <None Include="Assets\bobardo IAB\LICENSE.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -778,18 +774,24 @@
     <Reference Include="Unity.2D.SpriteShape.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="LeanLocalizationEditor.csproj">
-      <Project>{FA47F61E-12FC-DB39-583E-23ECD694F04E}</Project>
+      <Project>{BC17C8DC-CDA1-A4A3-9AA7-6173A061BEAF}</Project>
       <Name>LeanLocalizationEditor</Name>
     </ProjectReference>
     <ProjectReference Include="LeanLocalization.csproj">
-      <Project>{0EB5E98C-65A6-CC48-0125-A2B05BA600F6}</Project>
+      <Project>{F6C3ED41-C7D0-A47B-51A6-E09A6BF8A018}</Project>
       <Name>LeanLocalization</Name>
     </ProjectReference>
     <ProjectReference Include="LeanCommon.csproj">
-      <Project>{3BFA4E5C-D880-1630-1A66-BCFB417F9AB7}</Project>
+      <Project>{412BF3E3-91B3-1123-377E-50277A52955F}</Project>
       <Name>LeanCommon</Name>
     </ProjectReference>
   </ItemGroup>

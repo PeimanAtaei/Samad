@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FA47F61E-12FC-DB39-583E-23ECD694F04E}</ProjectGuid>
+    <ProjectGuid>{BC17C8DC-CDA1-A4A3-9AA7-6173A061BEAF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>LeanLocalizationEditor</AssemblyName>
@@ -651,11 +651,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="LeanCommon.csproj">
-      <Project>{3BFA4E5C-D880-1630-1A66-BCFB417F9AB7}</Project>
+      <Project>{412BF3E3-91B3-1123-377E-50277A52955F}</Project>
       <Name>LeanCommon</Name>
     </ProjectReference>
     <ProjectReference Include="LeanLocalization.csproj">
-      <Project>{0EB5E98C-65A6-CC48-0125-A2B05BA600F6}</Project>
+      <Project>{F6C3ED41-C7D0-A47B-51A6-E09A6BF8A018}</Project>
       <Name>LeanLocalization</Name>
     </ProjectReference>
   </ItemGroup>

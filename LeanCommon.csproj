@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3BFA4E5C-D880-1630-1A66-BCFB417F9AB7}</ProjectGuid>
+    <ProjectGuid>{412BF3E3-91B3-1123-377E-50277A52955F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>LeanCommon</AssemblyName>

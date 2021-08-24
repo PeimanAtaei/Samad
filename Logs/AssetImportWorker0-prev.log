@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/staging' branch; Version is '2020.2.7f1 (c53830e277f1) revision 12924976'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19043.1110; Version 2009; 64bit' Language: 'en' Physical Memory: 16167 MB
+OS: 'Windows 10 Pro; OS build 19043.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 16167 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,19 +11,19 @@ C:\Program Files\Unity\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/Game/Projects/Samad-V0.2-1-08
+D:/Game/Projects/Samad-V0.3-22-08
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64932
-Successfully changed project path to: D:/Game/Projects/Samad-V0.2-1-08
-D:/Game/Projects/Samad-V0.2-1-08
+61357
+Successfully changed project path to: D:/Game/Projects/Samad-V0.3-22-08
+D:/Game/Projects/Samad-V0.3-22-08
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 79.92 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 31.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.7f1 (c53830e277f1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Game/Projects/Samad-V0.2-1-08/Assets
+[Subsystems] Discovering subsystems at path D:/Game/Projects/Samad-V0.3-22-08/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,491 +35,310 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001685 seconds.
+Registered in 0.002735 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 79.47 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 37.94 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.591 seconds
+- Completed reload, in  0.696 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002600 seconds.
+Registered in 0.001076 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.491 seconds
+- Completed reload, in  0.597 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1765 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.1 MB.
-System memory in use after: 82.2 MB.
+Unloading 1766 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.2 MB.
+System memory in use after: 82.3 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2194.
-Total: 2.488900 ms (FindLiveObjects: 0.400900 ms CreateObjectMapping: 0.171600 ms MarkObjects: 1.803200 ms  DeleteObjects: 0.111100 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2197.
+Total: 1.602100 ms (FindLiveObjects: 0.123100 ms CreateObjectMapping: 0.034400 ms MarkObjects: 1.372900 ms  DeleteObjects: 0.070700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Script/Obstacles/Bomb.cs
-  artifactKey: Guid(1063fd4bb8bdbbf489e6868bad15f09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Obstacles/Bomb.cs using Guid(1063fd4bb8bdbbf489e6868bad15f09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce75a8849e2f9bbe2955dc71ae141435') in 0.034707 seconds
-  Import took 0.042141 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 7.66 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 47.4 MB.
-System memory in use after: 47.5 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2194.
-Total: 2.923200 ms (FindLiveObjects: 0.352900 ms CreateObjectMapping: 0.121200 ms MarkObjects: 2.416500 ms  DeleteObjects: 0.029800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.130210 seconds.
-  path: Assets/Script/Obstacles/Bomb.cs
-  artifactKey: Guid(1063fd4bb8bdbbf489e6868bad15f09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Obstacles/Bomb.cs using Guid(1063fd4bb8bdbbf489e6868bad15f09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1a69f678456b5fb1aff7a9ae394443') in 0.002723 seconds
-  Import took 0.008337 seconds .
+  path: Assets/bobardo IAB/com.bobardo IAB.prefab
+  artifactKey: Guid(1afd515276f5c714b99d3c09cc151597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bobardo IAB/com.bobardo IAB.prefab using Guid(1afd515276f5c714b99d3c09cc151597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76b42b7e2bb76606e1700e5a026b1dc') in 0.035561 seconds
+  Import took 0.206220 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001663 seconds.
+Registered in 0.001052 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.539 seconds
+- Completed reload, in  0.627 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1761 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.7 MB.
-System memory in use after: 81.9 MB.
-
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2197.
-Total: 2.984400 ms (FindLiveObjects: 0.216100 ms CreateObjectMapping: 0.076600 ms MarkObjects: 2.649800 ms  DeleteObjects: 0.033000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002404 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.953 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1761 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1759 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 81.8 MB.
 System memory in use after: 81.9 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2200.
-Total: 3.992800 ms (FindLiveObjects: 0.378300 ms CreateObjectMapping: 0.112800 ms MarkObjects: 3.431400 ms  DeleteObjects: 0.067800 ms)
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2197.
+Total: 1.484400 ms (FindLiveObjects: 0.169500 ms CreateObjectMapping: 0.039000 ms MarkObjects: 1.259700 ms  DeleteObjects: 0.015300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Import Request.
-  Time since last request: 361.934855 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/TriggerMineExplode
-  artifactKey: Guid(5c4cb0e3645abf14599e1b2b56a74d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/TriggerMineExplode using Guid(5c4cb0e3645abf14599e1b2b56a74d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb033aab327c2e8d93325ed2bc44cda') in 0.019480 seconds
-  Import took 0.025800 seconds .
+  Time since last request: 29.850977 seconds.
+  path: Assets/Sprite/icon.png
+  artifactKey: Guid(50b5a200604b6dd4297b5618129ef3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/icon.png using Guid(50b5a200604b6dd4297b5618129ef3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a404486a767ce509a2bc830fe420b7') in 0.108290 seconds
+  Import took 0.336325 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.346267 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion
-  artifactKey: Guid(6cfb4c1333c093a4a879a5b56d8cbdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion using Guid(6cfb4c1333c093a4a879a5b56d8cbdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c161236f0cf30982f512b3e509654bd9') in 0.011279 seconds
-  Import took 0.016579 seconds .
+  Time since last request: 0.000604 seconds.
+  path: Assets/Sprite/Level_25w.png
+  artifactKey: Guid(cdbcc5af842d1d54787ac7010e555d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Level_25w.png using Guid(cdbcc5af842d1d54787ac7010e555d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8c643119742f22ad000709fea65cd4') in 0.053985 seconds
+  Import took 0.230855 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003542 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion
-  artifactKey: Guid(6cfb4c1333c093a4a879a5b56d8cbdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion using Guid(6cfb4c1333c093a4a879a5b56d8cbdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c161236f0cf30982f512b3e509654bd9') in 0.002717 seconds
-  Import took 0.008422 seconds .
+  Time since last request: 0.000674 seconds.
+  path: Assets/Sprite/Stone.png
+  artifactKey: Guid(14eb88f56553cb041a1ea1dbeee8f88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Stone.png using Guid(14eb88f56553cb041a1ea1dbeee8f88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9ff9aa8b7b0e721a87bd8af7b2753a') in 0.019349 seconds
+  Import took 0.024462 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.611762 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_01.png
-  artifactKey: Guid(046cf782c11e3184bbd49516e9f507e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_01.png using Guid(046cf782c11e3184bbd49516e9f507e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0373ec081f29bfba24b9a0b081700c2c') in 0.230396 seconds
-  Import took 0.236027 seconds .
+  Time since last request: 0.000347 seconds.
+  path: Assets/Sprite/Stone2.png
+  artifactKey: Guid(797492c1eda6d4b4db3ada3a3b77d553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Stone2.png using Guid(797492c1eda6d4b4db3ada3a3b77d553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cb10f45024797fffecf5fe1a605e36') in 0.019973 seconds
+  Import took 0.208954 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000541 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_07.png
-  artifactKey: Guid(d05ff71cbf633e14cbe43e167aee6e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_07.png using Guid(d05ff71cbf633e14cbe43e167aee6e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd87a697e2cafe1ff6a85fa151508b34') in 0.034008 seconds
-  Import took 0.040463 seconds .
+  Time since last request: 0.000550 seconds.
+  path: Assets/Sprite/Stone.png
+  artifactKey: Guid(14eb88f56553cb041a1ea1dbeee8f88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Stone.png using Guid(14eb88f56553cb041a1ea1dbeee8f88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9ff9aa8b7b0e721a87bd8af7b2753a') in 0.016841 seconds
+  Import took 0.021813 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000446 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_06.png
-  artifactKey: Guid(a719b23413dfb8942a3407625f8477bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_06.png using Guid(a719b23413dfb8942a3407625f8477bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ced33cd6e65ce09920f2b4cbfc9f6c') in 0.039661 seconds
-  Import took 0.045865 seconds .
+  Time since last request: 0.736734 seconds.
+  path: Assets/Videos/nitro.mp4
+  artifactKey: Guid(58ebdfed130dd1543aca6d23f2f1dc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Videos/nitro.mp4 using Guid(58ebdfed130dd1543aca6d23f2f1dc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31674c6eafe7ce1df8a3e81e1bbdf514') in 0.012870 seconds
+  Import took 0.026901 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_04.png
-  artifactKey: Guid(47c341622ab45f548892c26ca2693fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_04.png using Guid(47c341622ab45f548892c26ca2693fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ebbf5f810093e6bb19df8d914ed316') in 0.034582 seconds
-  Import took 0.041045 seconds .
+  Time since last request: 0.000376 seconds.
+  path: Assets/Videos/road.mp4
+  artifactKey: Guid(9198256d1468b534fb0ac62282336205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Videos/road.mp4 using Guid(9198256d1468b534fb0ac62282336205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af62636810f148c0c0178389587c96b') in 0.008736 seconds
+  Import took 0.028148 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000512 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_03.png
-  artifactKey: Guid(73ddfa6b48035334082d46c0bb71ca16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_03.png using Guid(73ddfa6b48035334082d46c0bb71ca16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3035bbceeafaf6179c10679a7ccd752f') in 0.034082 seconds
-  Import took 0.040936 seconds .
+  Time since last request: 0.000328 seconds.
+  path: Assets/Videos/Render Texture.renderTexture
+  artifactKey: Guid(d67155fdc804c834485e2a5ac1af574a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Videos/Render Texture.renderTexture using Guid(d67155fdc804c834485e2a5ac1af574a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c57cc8fe2bb61336502c41718add86') in 0.029170 seconds
+  Import took 0.033729 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000416 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_05.png
-  artifactKey: Guid(1c1222831b8748845a899df1200c39f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_05.png using Guid(1c1222831b8748845a899df1200c39f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762483ad235b34720c236bf4ff4a51eb') in 0.034703 seconds
-  Import took 0.041101 seconds .
+  Time since last request: 0.000221 seconds.
+  path: Assets/Videos/shoot.mp4
+  artifactKey: Guid(e1c45df6f00ab0843be6caa94b668e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Videos/shoot.mp4 using Guid(e1c45df6f00ab0843be6caa94b668e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9190d1dd42c61f449a7103c1032b66') in 0.009444 seconds
+  Import took 0.013992 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000715 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_02.png
-  artifactKey: Guid(a6d711f8e4b423940bf2efcd6b4edd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_02.png using Guid(a6d711f8e4b423940bf2efcd6b4edd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423ecd0a2f04b84fd4afbd9e105a3ecd') in 0.033476 seconds
-  Import took 0.040378 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.601150 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_01.png
-  artifactKey: Guid(046cf782c11e3184bbd49516e9f507e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_01.png using Guid(046cf782c11e3184bbd49516e9f507e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9c37384a02c49a6bf7a724ff8a78be') in 0.027963 seconds
-  Import took 0.034526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_07.png
-  artifactKey: Guid(d05ff71cbf633e14cbe43e167aee6e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_07.png using Guid(d05ff71cbf633e14cbe43e167aee6e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c47712ea45bdfcc043ae534ba613218') in 0.021659 seconds
-  Import took 0.026884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_06.png
-  artifactKey: Guid(a719b23413dfb8942a3407625f8477bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_06.png using Guid(a719b23413dfb8942a3407625f8477bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59041bae33305dae5e2cec8a316f9af') in 0.034990 seconds
-  Import took 0.039661 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000407 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_04.png
-  artifactKey: Guid(47c341622ab45f548892c26ca2693fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_04.png using Guid(47c341622ab45f548892c26ca2693fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03694726aa4d81df10057228e489455b') in 0.042021 seconds
-  Import took 0.047548 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_03.png
-  artifactKey: Guid(73ddfa6b48035334082d46c0bb71ca16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_03.png using Guid(73ddfa6b48035334082d46c0bb71ca16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae97726e1d1ded6df14e8da2def8ef4f') in 0.031286 seconds
-  Import took 0.037679 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_05.png
-  artifactKey: Guid(1c1222831b8748845a899df1200c39f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_05.png using Guid(1c1222831b8748845a899df1200c39f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ae6580ad2b51c0e4a8bf54fa8ed64d') in 0.027209 seconds
-  Import took 0.032991 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_02.png
-  artifactKey: Guid(a6d711f8e4b423940bf2efcd6b4edd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_02.png using Guid(a6d711f8e4b423940bf2efcd6b4edd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1972bc21f1b9277b2a96681f94c2f5a') in 0.041957 seconds
-  Import took 0.046978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 223.263249 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_01.png
-  artifactKey: Guid(046cf782c11e3184bbd49516e9f507e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_01.png using Guid(046cf782c11e3184bbd49516e9f507e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae93ff14eb2f714b7c56693153034259') in 0.025873 seconds
-  Import took 0.033069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.172824 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_02.png
-  artifactKey: Guid(a6d711f8e4b423940bf2efcd6b4edd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_02.png using Guid(a6d711f8e4b423940bf2efcd6b4edd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39514f2d111a95930794c186d1cb364a') in 0.036976 seconds
-  Import took 0.042940 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.654125 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_01.png
-  artifactKey: Guid(046cf782c11e3184bbd49516e9f507e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_01.png using Guid(046cf782c11e3184bbd49516e9f507e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0a34da677941285187671df140cb3d') in 0.027018 seconds
-  Import took 0.031386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.746261 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_03.png
-  artifactKey: Guid(73ddfa6b48035334082d46c0bb71ca16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_03.png using Guid(73ddfa6b48035334082d46c0bb71ca16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98de92632f75e99d0aaee952155e85d8') in 0.033383 seconds
-  Import took 0.039090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.795561 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_04.png
-  artifactKey: Guid(47c341622ab45f548892c26ca2693fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_04.png using Guid(47c341622ab45f548892c26ca2693fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab731e29aea794f092754c275b69984f') in 0.046312 seconds
-  Import took 0.052288 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.536342 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_05.png
-  artifactKey: Guid(1c1222831b8748845a899df1200c39f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_05.png using Guid(1c1222831b8748845a899df1200c39f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a466f6d793a8d8d2b6e1b929f9df31') in 0.020431 seconds
-  Import took 0.025367 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005352 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_05.png
-  artifactKey: Guid(1c1222831b8748845a899df1200c39f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_05.png using Guid(1c1222831b8748845a899df1200c39f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a466f6d793a8d8d2b6e1b929f9df31') in 0.022335 seconds
-  Import took 0.028661 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.325128 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_06.png
-  artifactKey: Guid(a719b23413dfb8942a3407625f8477bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_06.png using Guid(a719b23413dfb8942a3407625f8477bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0293b5ba7b1f5b0e6e630f35533b345') in 0.035688 seconds
-  Import took 0.042044 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.455732 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_07.png
-  artifactKey: Guid(d05ff71cbf633e14cbe43e167aee6e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_07.png using Guid(d05ff71cbf633e14cbe43e167aee6e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ae61f381957448dbf75d132f613c30') in 0.025520 seconds
-  Import took 0.031720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 154.138565 seconds.
-  path: Assets/Prefabe/Obstacles/Bombs/trigger_mine.prefab
-  artifactKey: Guid(44e53830aab868e4a8e626ce38cb8e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Obstacles/Bombs/trigger_mine.prefab using Guid(44e53830aab868e4a8e626ce38cb8e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1573309148557e77976da66c1be23a40') in 0.096657 seconds
-  Import took 0.103042 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.783235 seconds.
-  path: Assets/Prefabe/Obstacles/Bombs/mine.prefab
-  artifactKey: Guid(bc6bc9687765bcf419bccacf012d423e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Obstacles/Bombs/mine.prefab using Guid(bc6bc9687765bcf419bccacf012d423e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (mine_face) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (mine_face) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: '07874f1aafa98427b5bbfb1fa21ca45a') in 0.026878 seconds
-  Import took 0.032717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 52.574984 seconds.
-  path: Assets/Animation/Animals
-  artifactKey: Guid(012ebfd53e3e3b84b961b64d84688bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Animals using Guid(012ebfd53e3e3b84b961b64d84688bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3703f780bd85442eecdada54bf7ddd7f') in 0.013565 seconds
-  Import took 0.019028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.893419 seconds.
-  path: Assets/Animation/Obstacles/Bombs/TriggerMineIdel.anim
-  artifactKey: Guid(6e9a50dfd473f3749897017b0d1b8893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Obstacles/Bombs/TriggerMineIdel.anim using Guid(6e9a50dfd473f3749897017b0d1b8893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d7bd16736b6a05f563601531054ebb') in 0.012065 seconds
-  Import took 0.017121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.271271 seconds.
-  path: Assets/Animation/Obstacles/Bombs/TriggerMineExplotion.anim
-  artifactKey: Guid(5cbf4520abe8f4443b0019a81ad0dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Obstacles/Bombs/TriggerMineExplotion.anim using Guid(5cbf4520abe8f4443b0019a81ad0dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7315ac756ce2bfaa293a09022d5e6297') in 0.003567 seconds
-  Import took 0.009099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002180 seconds.
-  path: Assets/Animation/Obstacles/Bombs/TriggerMineExplotion.anim
-  artifactKey: Guid(5cbf4520abe8f4443b0019a81ad0dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Obstacles/Bombs/TriggerMineExplotion.anim using Guid(5cbf4520abe8f4443b0019a81ad0dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7315ac756ce2bfaa293a09022d5e6297') in 0.003792 seconds
-  Import took 0.009575 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.090112 seconds.
-  path: Assets/Animation/Obstacles/Bombs/MineIdel.anim
-  artifactKey: Guid(10fbc985ba31a8844b296706e0493a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Obstacles/Bombs/MineIdel.anim using Guid(10fbc985ba31a8844b296706e0493a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e34ebbc1e56537b3be9e52820bb315d') in 0.011507 seconds
-  Import took 0.016890 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.496443 seconds.
-  path: Assets/Animation/Obstacles/Bombs/MineExplotion.anim
-  artifactKey: Guid(bdc9976ab65d8c142b1d79bc10d1ed08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Obstacles/Bombs/MineExplotion.anim using Guid(bdc9976ab65d8c142b1d79bc10d1ed08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6fd523cc56730c175d9235685b60786') in 0.003118 seconds
-  Import took 0.008829 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 121.241517 seconds.
-  path: Assets/Sound/Obstacles/Bombs/Mine.wav
-  artifactKey: Guid(b337c2c026eda8b46ade78bf0dc0f6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Obstacles/Bombs/Mine.wav using Guid(b337c2c026eda8b46ade78bf0dc0f6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba297367f1241ede9d1b0652132de07') in 0.052026 seconds
-  Import took 0.058296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.337199 seconds.
-  path: Assets/Sound/Obstacles/Bombs/Mine.wav
-  artifactKey: Guid(b337c2c026eda8b46ade78bf0dc0f6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Obstacles/Bombs/Mine.wav using Guid(b337c2c026eda8b46ade78bf0dc0f6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93abb77e778cc88ddc30ed9e0262b9c2') in 0.010101 seconds
-  Import took 0.015495 seconds .
+  Time since last request: 0.003774 seconds.
+  path: Assets/Videos/shoot.mp4
+  artifactKey: Guid(e1c45df6f00ab0843be6caa94b668e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Videos/shoot.mp4 using Guid(e1c45df6f00ab0843be6caa94b668e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9190d1dd42c61f449a7103c1032b66') in 0.002015 seconds
+  Import took 0.005821 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002498 seconds.
+Registered in 0.001101 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invalid AssetDatabase path: /Editor/EditorResources/cm_logo_sm.png. Use path relative to the project folder.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.Texture2D> (string)
+Cinemachine.Editor.CinemachineSettings:get_CinemachineLogoTexture () (at Library/PackageCache/com.unity.cinemachine@2.6.9/Editor/Windows/CinemachineSettings.cs:205)
+Cinemachine.Editor.CinemachineSettings:.cctor () (at Library/PackageCache/com.unity.cinemachine@2.6.9/Editor/Windows/CinemachineSettings.cs:237)
+Cinemachine.CinemachineColliderPrefs:.cctor () (at Library/PackageCache/com.unity.cinemachine@2.6.9/Editor/Windows/CinemachineColliderPrefs.cs:61)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.cinemachine@2.6.9/Editor/Windows/CinemachineSettings.cs line 205]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.652 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1906 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2362.
+Total: 1.967300 ms (FindLiveObjects: 0.293500 ms CreateObjectMapping: 0.043900 ms MarkObjects: 1.555300 ms  DeleteObjects: 0.073400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000914 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.423 seconds
+- Completed reload, in  0.603 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.10 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1761 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.2 MB.
-System memory in use after: 85.3 MB.
+Unloading 1907 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.3 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2215.
-Total: 2.062300 ms (FindLiveObjects: 0.213000 ms CreateObjectMapping: 0.081200 ms MarkObjects: 1.746800 ms  DeleteObjects: 0.019900 ms)
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2366.
+Total: 1.655500 ms (FindLiveObjects: 0.259200 ms CreateObjectMapping: 0.072500 ms MarkObjects: 1.246500 ms  DeleteObjects: 0.076100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002367 seconds.
+Registered in 0.002587 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.525 seconds
+- Completed reload, in  1.554 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1761 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.2 MB.
-System memory in use after: 85.3 MB.
+Unloading 1906 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.3 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2218.
-Total: 3.041800 ms (FindLiveObjects: 0.269900 ms CreateObjectMapping: 0.081300 ms MarkObjects: 2.656400 ms  DeleteObjects: 0.032100 ms)
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2369.
+Total: 3.021700 ms (FindLiveObjects: 0.220300 ms CreateObjectMapping: 0.083400 ms MarkObjects: 2.587000 ms  DeleteObjects: 0.129200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002553 seconds.
+Registered in 0.002469 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.464 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1906 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.3 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2372.
+Total: 4.575300 ms (FindLiveObjects: 0.305800 ms CreateObjectMapping: 0.062700 ms MarkObjects: 3.908000 ms  DeleteObjects: 0.296100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002943 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.558 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1906 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.3 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2375.
+Total: 3.146000 ms (FindLiveObjects: 0.311600 ms CreateObjectMapping: 0.078800 ms MarkObjects: 2.636300 ms  DeleteObjects: 0.117400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 2196.332929 seconds.
+  path: Assets/Script/PlayerScript/ControlCamera.cs
+  artifactKey: Guid(b036759edbdeb9d42ab91e8a743470de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/PlayerScript/ControlCamera.cs using Guid(b036759edbdeb9d42ab91e8a743470de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90253607e7cc4c77993c16addad000b') in 0.017765 seconds
+  Import took 0.022811 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002550 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.11 ms, found 0 plugins.
@@ -528,557 +347,27 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.543 seconds
+- Completed reload, in  1.565 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.05 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1761 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.2 MB.
-System memory in use after: 85.3 MB.
-
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2221.
-Total: 2.962300 ms (FindLiveObjects: 0.261000 ms CreateObjectMapping: 0.076100 ms MarkObjects: 2.588900 ms  DeleteObjects: 0.034500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 398.879808 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_02.png
-  artifactKey: Guid(a6d711f8e4b423940bf2efcd6b4edd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_02.png using Guid(a6d711f8e4b423940bf2efcd6b4edd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44972d4eab8d7ffc04cb31b059adcaf0') in 0.094511 seconds
-  Import took 0.100188 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.749622 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_03.png
-  artifactKey: Guid(73ddfa6b48035334082d46c0bb71ca16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_03.png using Guid(73ddfa6b48035334082d46c0bb71ca16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396d0a0ba64e3db647dcf0dd2d7875e0') in 0.039699 seconds
-  Import took 0.045316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.817206 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_07.png
-  artifactKey: Guid(d05ff71cbf633e14cbe43e167aee6e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_07.png using Guid(d05ff71cbf633e14cbe43e167aee6e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dff88a7bc3122af2ff58f8209a3efb4') in 0.020748 seconds
-  Import took 0.025717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.104532 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_04.png
-  artifactKey: Guid(47c341622ab45f548892c26ca2693fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_04.png using Guid(47c341622ab45f548892c26ca2693fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6bc109722e90a5d18b94721d93cc3ca') in 0.048074 seconds
-  Import took 0.053854 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.529108 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_05.png
-  artifactKey: Guid(1c1222831b8748845a899df1200c39f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_05.png using Guid(1c1222831b8748845a899df1200c39f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a16220f8b6932ec7c1fc3ebbf063c7') in 0.052145 seconds
-  Import took 0.057947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.962355 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_06.png
-  artifactKey: Guid(a719b23413dfb8942a3407625f8477bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_06.png using Guid(a719b23413dfb8942a3407625f8477bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd37c3f21267c63d4eb79c2541790ec7d') in 0.045678 seconds
-  Import took 0.051346 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.466894 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_01.png
-  artifactKey: Guid(046cf782c11e3184bbd49516e9f507e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/MineExplotion/explode_with_smoke_vertical_yellow_01.png using Guid(046cf782c11e3184bbd49516e9f507e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f89e1be77d7979f4e9e68dc605417f') in 0.042864 seconds
-  Import took 0.048299 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 188.089197 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green
-  artifactKey: Guid(f900a8b251856d64e992a9b1e7aa3cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green using Guid(f900a8b251856d64e992a9b1e7aa3cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafc5ecb1e81d7f728ad13f0a866f9bc') in 0.009999 seconds
-  Import took 0.016278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.069910 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_01.png
-  artifactKey: Guid(b7b26b4292640764e819c4fecdbba081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_01.png using Guid(b7b26b4292640764e819c4fecdbba081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414578e1ea334b339df8b4a75b0fb488') in 0.041695 seconds
-  Import took 0.046989 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_04.png
-  artifactKey: Guid(120351d5f8b87fa4a906d0445bdff9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_04.png using Guid(120351d5f8b87fa4a906d0445bdff9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf04dd0199a674c4018d0d783d2907a') in 0.028722 seconds
-  Import took 0.034682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000475 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_06.png
-  artifactKey: Guid(9140c2029a5d650479f3fc4e5ee6da28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_06.png using Guid(9140c2029a5d650479f3fc4e5ee6da28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c186b51f848fd2a9228a833ff8858d08') in 0.033107 seconds
-  Import took 0.040459 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000506 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_03.png
-  artifactKey: Guid(a96f2143557526f42993473c2786ecbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_03.png using Guid(a96f2143557526f42993473c2786ecbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c8d9c552c502fe93386cee4d0e8f7b') in 0.031279 seconds
-  Import took 0.037669 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_02.png
-  artifactKey: Guid(6b5089f10cf6a5a4b93b11e855386b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_02.png using Guid(6b5089f10cf6a5a4b93b11e855386b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558ffb8d33862c9ba1a11aa28fd08977') in 0.029826 seconds
-  Import took 0.036724 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000410 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_08.png
-  artifactKey: Guid(601c64ed22bbda14abeabb1436cb26ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_08.png using Guid(601c64ed22bbda14abeabb1436cb26ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0fa49b406502428b90035f295e18d4') in 0.031537 seconds
-  Import took 0.038978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000459 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_05.png
-  artifactKey: Guid(474d5174b3ecbfd469f24f330bc1e1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_05.png using Guid(474d5174b3ecbfd469f24f330bc1e1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a64f0b0b4bca44d4a554b22f782f8a') in 0.030617 seconds
-  Import took 0.037654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000473 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_09.png
-  artifactKey: Guid(3f697d7b036ca8b45b699f39e01b7cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_09.png using Guid(3f697d7b036ca8b45b699f39e01b7cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf468578b14b457fc0acb21a5cc8381') in 0.028286 seconds
-  Import took 0.035118 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000567 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_07.png
-  artifactKey: Guid(f441ba29a0c1fc74397310e3d3563f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_07.png using Guid(f441ba29a0c1fc74397310e3d3563f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f5a5733cfbbeda0777f00be7660c1e') in 0.028094 seconds
-  Import took 0.033896 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001283 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_09.png
-  artifactKey: Guid(3f697d7b036ca8b45b699f39e01b7cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_09.png using Guid(3f697d7b036ca8b45b699f39e01b7cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf468578b14b457fc0acb21a5cc8381') in 0.020259 seconds
-  Import took 0.027949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.783436 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_05.png
-  artifactKey: Guid(474d5174b3ecbfd469f24f330bc1e1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_05.png using Guid(474d5174b3ecbfd469f24f330bc1e1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920e7b21ba58b4607b281b8d6200b016') in 0.026714 seconds
-  Import took 0.033052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000442 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_04.png
-  artifactKey: Guid(120351d5f8b87fa4a906d0445bdff9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_04.png using Guid(120351d5f8b87fa4a906d0445bdff9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f370f91338ac463ac883690d3f6488') in 0.022847 seconds
-  Import took 0.028755 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_06.png
-  artifactKey: Guid(9140c2029a5d650479f3fc4e5ee6da28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_06.png using Guid(9140c2029a5d650479f3fc4e5ee6da28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f8b3e2936f1c7e10a6af43d10ce927') in 0.021859 seconds
-  Import took 0.027594 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_03.png
-  artifactKey: Guid(a96f2143557526f42993473c2786ecbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_03.png using Guid(a96f2143557526f42993473c2786ecbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d37aaf67cba3229bec489cac5924a3a') in 0.018291 seconds
-  Import took 0.023296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_01.png
-  artifactKey: Guid(b7b26b4292640764e819c4fecdbba081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_01.png using Guid(b7b26b4292640764e819c4fecdbba081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be229064ffa96243387aa3b2cc3bd8ae') in 0.018845 seconds
-  Import took 0.024719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_02.png
-  artifactKey: Guid(6b5089f10cf6a5a4b93b11e855386b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_02.png using Guid(6b5089f10cf6a5a4b93b11e855386b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905deb29932eaca6dc3be36c2427fb0c') in 0.016928 seconds
-  Import took 0.023181 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000484 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_08.png
-  artifactKey: Guid(601c64ed22bbda14abeabb1436cb26ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_08.png using Guid(601c64ed22bbda14abeabb1436cb26ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757289ab38e68c65a096eea8e0a4cf03') in 0.018657 seconds
-  Import took 0.024384 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_09.png
-  artifactKey: Guid(3f697d7b036ca8b45b699f39e01b7cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_09.png using Guid(3f697d7b036ca8b45b699f39e01b7cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07cb98efaf4c99dfdb66dea91fdfbad') in 0.018335 seconds
-  Import took 0.024053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_07.png
-  artifactKey: Guid(f441ba29a0c1fc74397310e3d3563f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_07.png using Guid(f441ba29a0c1fc74397310e3d3563f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2436225cdb2e812d14c39ab7a7b702b') in 0.019219 seconds
-  Import took 0.025176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 94.297159 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_01.png
-  artifactKey: Guid(b7b26b4292640764e819c4fecdbba081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_01.png using Guid(b7b26b4292640764e819c4fecdbba081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2258d2a8687def15dc91512222cc791') in 0.021569 seconds
-  Import took 0.028414 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.711137 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_02.png
-  artifactKey: Guid(6b5089f10cf6a5a4b93b11e855386b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_02.png using Guid(6b5089f10cf6a5a4b93b11e855386b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9646fa4b68418e8d9e3249f793c9dcfd') in 0.024604 seconds
-  Import took 0.031219 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.045680 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_03.png
-  artifactKey: Guid(a96f2143557526f42993473c2786ecbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_03.png using Guid(a96f2143557526f42993473c2786ecbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4e2ea0fee1ba38e51ac4b642a621c3') in 0.032895 seconds
-  Import took 0.039463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.581423 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_05.png
-  artifactKey: Guid(474d5174b3ecbfd469f24f330bc1e1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_05.png using Guid(474d5174b3ecbfd469f24f330bc1e1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3781a2381951af7076322e67293cde19') in 0.032482 seconds
-  Import took 0.037558 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.213908 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_04.png
-  artifactKey: Guid(120351d5f8b87fa4a906d0445bdff9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_04.png using Guid(120351d5f8b87fa4a906d0445bdff9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4b9df963de87caaa0d935338e987dd') in 0.028473 seconds
-  Import took 0.033962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.466002 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_06.png
-  artifactKey: Guid(9140c2029a5d650479f3fc4e5ee6da28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_06.png using Guid(9140c2029a5d650479f3fc4e5ee6da28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914d1657818f56d1b72e21662bfe0efa') in 0.034370 seconds
-  Import took 0.040741 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.820919 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_07.png
-  artifactKey: Guid(f441ba29a0c1fc74397310e3d3563f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_07.png using Guid(f441ba29a0c1fc74397310e3d3563f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8483ec4623763a38070604c4d335aa4b') in 0.033222 seconds
-  Import took 0.038848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002675 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_07.png
-  artifactKey: Guid(f441ba29a0c1fc74397310e3d3563f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_07.png using Guid(f441ba29a0c1fc74397310e3d3563f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8483ec4623763a38070604c4d335aa4b') in 0.028249 seconds
-  Import took 0.034292 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.719973 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_08.png
-  artifactKey: Guid(601c64ed22bbda14abeabb1436cb26ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_08.png using Guid(601c64ed22bbda14abeabb1436cb26ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0ba5ad363dd52d61fcf29daf6fed5a') in 0.024533 seconds
-  Import took 0.029211 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.501830 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_09.png
-  artifactKey: Guid(3f697d7b036ca8b45b699f39e01b7cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Green/plume_explode_03_green_09.png using Guid(3f697d7b036ca8b45b699f39e01b7cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e751e31e4a72c6d094283162dcd61957') in 0.024883 seconds
-  Import took 0.030982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 168.249682 seconds.
-  path: Assets/Prefabe/Obstacles/Bombs/mine.prefab
-  artifactKey: Guid(bc6bc9687765bcf419bccacf012d423e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Obstacles/Bombs/mine.prefab using Guid(bc6bc9687765bcf419bccacf012d423e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be84bc9bd90507e6fcec8d33df3a7ae2') in 0.062244 seconds
-  Import took 0.068733 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000443 seconds.
-  path: Assets/Prefabe/Obstacles/Bombs/trigger_mine.prefab
-  artifactKey: Guid(44e53830aab868e4a8e626ce38cb8e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Obstacles/Bombs/trigger_mine.prefab using Guid(44e53830aab868e4a8e626ce38cb8e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1019292c0502bc150164ee39433c00d') in 0.031804 seconds
-  Import took 0.037957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.326091 seconds.
-  path: Assets/Prefabe/Obstacles/Bombs/barrel_green.prefab
-  artifactKey: Guid(d24511abb716e1e47b25a699327382cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Obstacles/Bombs/barrel_green.prefab using Guid(d24511abb716e1e47b25a699327382cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (barrel_green) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (barrel_green) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: '723f214da1a23ad7df1dd88320f0cf37') in 0.022457 seconds
-  Import took 0.028051 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005161 seconds.
-  path: Assets/Prefabe/Obstacles/Bombs/barrel_green.prefab
-  artifactKey: Guid(d24511abb716e1e47b25a699327382cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Obstacles/Bombs/barrel_green.prefab using Guid(d24511abb716e1e47b25a699327382cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (barrel_green) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (barrel_green) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: '723f214da1a23ad7df1dd88320f0cf37') in 0.019178 seconds
-  Import took 0.023807 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.606347 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/pngs/flamable_barrel_green.png
-  artifactKey: Guid(667bc0b400b95f0438d96d8d5507a2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/pngs/flamable_barrel_green.png using Guid(667bc0b400b95f0438d96d8d5507a2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6c9697898f87ccc2e0ca3ba40452fa') in 0.028000 seconds
-  Import took 0.035123 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 153.320901 seconds.
-  path: Assets/Sound/Obstacles/Bombs/coe_wea_all_mt_v1_01.wav
-  artifactKey: Guid(a19a772fa7da4f046a2016a5eecaa68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Obstacles/Bombs/coe_wea_all_mt_v1_01.wav using Guid(a19a772fa7da4f046a2016a5eecaa68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0341712e08e31e9dc6ed54cf78a214') in 0.028763 seconds
-  Import took 0.036257 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.642176 seconds.
-  path: Assets/Sound/Obstacles/Bombs/Barrel.wav
-  artifactKey: Guid(a19a772fa7da4f046a2016a5eecaa68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Obstacles/Bombs/Barrel.wav using Guid(a19a772fa7da4f046a2016a5eecaa68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993563d4f1cd2a02098efa1738e885e6') in 0.021898 seconds
-  Import took 0.027002 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 59.135548 seconds.
-  path: Assets/Animation/Obstacles
-  artifactKey: Guid(8b0fa9ff86d6e044f99b84d1ab4c97df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Obstacles using Guid(8b0fa9ff86d6e044f99b84d1ab4c97df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47768b8357809a1dabd5a55657262989') in 0.002469 seconds
-  Import took 0.007167 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.397011 seconds.
-  path: Assets/Animation/Obstacles/Bombs/BarrelGreenExplotion.anim
-  artifactKey: Guid(17d6c95df21db334b9b78392fd0baaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Obstacles/Bombs/BarrelGreenExplotion.anim using Guid(17d6c95df21db334b9b78392fd0baaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34cab1700722ac9c5fec75eb588cb060') in 0.011029 seconds
-  Import took 0.016236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.345222 seconds.
-  path: Assets/Animation/Obstacles/Bombs/barrel_green.controller
-  artifactKey: Guid(ce596993ece9427489efadab7b0a8b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Obstacles/Bombs/barrel_green.controller using Guid(ce596993ece9427489efadab7b0a8b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65017ec900fb38ec4d90486c5889a85') in 0.006385 seconds
-  Import took 0.011641 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002771 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.562 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1761 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.3 MB.
-System memory in use after: 85.4 MB.
+Unloading 1905 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.3 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2229.
-Total: 2.816300 ms (FindLiveObjects: 0.217800 ms CreateObjectMapping: 0.077600 ms MarkObjects: 2.484800 ms  DeleteObjects: 0.034200 ms)
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2377.
+Total: 3.261000 ms (FindLiveObjects: 0.399400 ms CreateObjectMapping: 0.152200 ms MarkObjects: 2.573600 ms  DeleteObjects: 0.133800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002496 seconds.
+Registered in 0.002803 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.573 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1761 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.3 MB.
-System memory in use after: 85.4 MB.
-
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2232.
-Total: 3.329000 ms (FindLiveObjects: 0.255400 ms CreateObjectMapping: 0.075500 ms MarkObjects: 2.938900 ms  DeleteObjects: 0.057400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002502 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.572 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1761 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.3 MB.
-System memory in use after: 85.4 MB.
-
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2235.
-Total: 3.035400 ms (FindLiveObjects: 0.303000 ms CreateObjectMapping: 0.049800 ms MarkObjects: 2.646200 ms  DeleteObjects: 0.034700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002750 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.588 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1761 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.3 MB.
-System memory in use after: 85.4 MB.
-
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2238.
-Total: 2.369500 ms (FindLiveObjects: 0.371400 ms CreateObjectMapping: 0.109600 ms MarkObjects: 1.864500 ms  DeleteObjects: 0.023000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002701 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.13 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -1087,311 +376,99 @@ Mono: successfully reloaded assembly
 - Completed reload, in  1.581 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.10 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1761 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.3 MB.
-System memory in use after: 85.4 MB.
+Unloading 1905 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.3 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2241.
-Total: 3.110400 ms (FindLiveObjects: 0.239600 ms CreateObjectMapping: 0.081400 ms MarkObjects: 2.671000 ms  DeleteObjects: 0.115900 ms)
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2380.
+Total: 3.045600 ms (FindLiveObjects: 0.256700 ms CreateObjectMapping: 0.077400 ms MarkObjects: 2.634400 ms  DeleteObjects: 0.075500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
-Received Import Request.
-  Time since last request: 863.286811 seconds.
-  path: Assets/Prefabe/Obstacles/Bombs/barrel_green.prefab
-  artifactKey: Guid(d24511abb716e1e47b25a699327382cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Obstacles/Bombs/barrel_green.prefab using Guid(d24511abb716e1e47b25a699327382cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dec02edf25590f63b064f2418655a5c') in 0.107808 seconds
-  Import took 0.115491 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/Prefabe/Obstacles/Bombs/mine.prefab
-  artifactKey: Guid(bc6bc9687765bcf419bccacf012d423e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Obstacles/Bombs/mine.prefab using Guid(bc6bc9687765bcf419bccacf012d423e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c88e52852613fde949e12ace0d4803c') in 0.021497 seconds
-  Import took 0.026690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000454 seconds.
-  path: Assets/Prefabe/Obstacles/Bombs/trigger_mine.prefab
-  artifactKey: Guid(44e53830aab868e4a8e626ce38cb8e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Obstacles/Bombs/trigger_mine.prefab using Guid(44e53830aab868e4a8e626ce38cb8e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d81c413a0a187a34b247a22f4a56c1') in 0.021246 seconds
-  Import took 0.027030 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.103564 seconds.
-  path: Assets/Prefabe/Obstacles/Bombs/barrel_red.prefab
-  artifactKey: Guid(9c811c0394eb20c428e3d8e59f006065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Obstacles/Bombs/barrel_red.prefab using Guid(9c811c0394eb20c428e3d8e59f006065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c0d22bd82ce3b41002f35b1a7442f5') in 0.021561 seconds
-  Import took 0.027131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002240 seconds.
-  path: Assets/Prefabe/Obstacles/Bombs/barrel_red.prefab
-  artifactKey: Guid(9c811c0394eb20c428e3d8e59f006065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Obstacles/Bombs/barrel_red.prefab using Guid(9c811c0394eb20c428e3d8e59f006065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c0d22bd82ce3b41002f35b1a7442f5') in 0.021719 seconds
-  Import took 0.026973 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.900496 seconds.
-  path: Assets/Prefabe/Obstacles/Bombs/mine.prefab
-  artifactKey: Guid(bc6bc9687765bcf419bccacf012d423e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Obstacles/Bombs/mine.prefab using Guid(bc6bc9687765bcf419bccacf012d423e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794d457f4971ab0faf7d6d621c3b44cc') in 0.022268 seconds
-  Import took 0.027815 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 177.869550 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_01.png
-  artifactKey: Guid(cc8ca7a5d38c75449bcd499c47690739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_01.png using Guid(cc8ca7a5d38c75449bcd499c47690739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1327587fdf96b73f902b90d44e003c') in 0.076160 seconds
-  Import took 0.081749 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000537 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_02.png
-  artifactKey: Guid(93717d171b014a744b392136e21f9ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_02.png using Guid(93717d171b014a744b392136e21f9ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec29c385bfa14fdb64f65aff5ea091e8') in 0.041288 seconds
-  Import took 0.048825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000466 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_05.png
-  artifactKey: Guid(033adb743dfe6974eb17e9709f761261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_05.png using Guid(033adb743dfe6974eb17e9709f761261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad5146ae836f6daf9aa082def7d8835') in 0.049254 seconds
-  Import took 0.055759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000550 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_08.png
-  artifactKey: Guid(792750f1617b4bc4495b38b4c7b0aec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_08.png using Guid(792750f1617b4bc4495b38b4c7b0aec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e16d007b3e1d626132ffc9e72d079a3') in 0.045862 seconds
-  Import took 0.053076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_04.png
-  artifactKey: Guid(2758cd005c929f34da0ba92cdad7db55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_04.png using Guid(2758cd005c929f34da0ba92cdad7db55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31270914051713e1be74f4b86de28235') in 0.052989 seconds
-  Import took 0.058693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000441 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_06.png
-  artifactKey: Guid(0fad0793985e4d848b52e708712cc0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_06.png using Guid(0fad0793985e4d848b52e708712cc0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ce8ef36d13a4b27a129e2f57736bb7') in 0.044940 seconds
-  Import took 0.052771 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000591 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_07.png
-  artifactKey: Guid(12e406bf36c098848abe2904898aac35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_07.png using Guid(12e406bf36c098848abe2904898aac35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922380fb0144d84fb7901dd99f17ed0e') in 0.054453 seconds
-  Import took 0.060725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000608 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_03.png
-  artifactKey: Guid(61326c744690b424482d2ca15d24c4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_03.png using Guid(61326c744690b424482d2ca15d24c4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ddd8d6f559efa9d3606d70dbf943df') in 0.045500 seconds
-  Import took 0.052602 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000510 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_11.png
-  artifactKey: Guid(78ac458486c3eb14482b5f4b387fef3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_11.png using Guid(78ac458486c3eb14482b5f4b387fef3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d08d9e54594445082a96d292f798195') in 0.049486 seconds
-  Import took 0.055780 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000469 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_10.png
-  artifactKey: Guid(5ea865ce890466f49ae74b79c3a4d468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_10.png using Guid(5ea865ce890466f49ae74b79c3a4d468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a05031cb550c15ec21243c9ff6c2bd4') in 0.045532 seconds
-  Import took 0.052000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_09.png
-  artifactKey: Guid(e45d86a40fc0f4940a8d7322e4ca469c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_09.png using Guid(e45d86a40fc0f4940a8d7322e4ca469c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f98be251d8cf370ff14db76fa80de95') in 0.047215 seconds
-  Import took 0.053591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000722 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_12.png
-  artifactKey: Guid(e949f267ce246e14b9476c10b348501b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_12.png using Guid(e949f267ce246e14b9476c10b348501b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88ff3f44825890c50a7380799068de6') in 0.029985 seconds
-  Import took 0.036526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.044470 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_01.png
-  artifactKey: Guid(cc8ca7a5d38c75449bcd499c47690739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_01.png using Guid(cc8ca7a5d38c75449bcd499c47690739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9eb9d72953b9001d2dfdb61d04caf23') in 0.047056 seconds
-  Import took 0.052028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.990850 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_02.png
-  artifactKey: Guid(93717d171b014a744b392136e21f9ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_02.png using Guid(93717d171b014a744b392136e21f9ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fd6fa2df4689e8064fa27eba6bc6d5') in 0.036008 seconds
-  Import took 0.068872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.879943 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_03.png
-  artifactKey: Guid(61326c744690b424482d2ca15d24c4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_03.png using Guid(61326c744690b424482d2ca15d24c4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778c38f5842b2da757251ca0c5c900a3') in 0.042330 seconds
-  Import took 0.058774 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.377048 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_04.png
-  artifactKey: Guid(2758cd005c929f34da0ba92cdad7db55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_04.png using Guid(2758cd005c929f34da0ba92cdad7db55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8828c06f0882dc4d184e3920c9c500f') in 0.018433 seconds
-  Import took 0.024741 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.704620 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_05.png
-  artifactKey: Guid(033adb743dfe6974eb17e9709f761261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_05.png using Guid(033adb743dfe6974eb17e9709f761261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9008d8c219c9b58effb4b8db1959643') in 0.041067 seconds
-  Import took 0.046781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.866628 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_06.png
-  artifactKey: Guid(0fad0793985e4d848b52e708712cc0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_06.png using Guid(0fad0793985e4d848b52e708712cc0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0219d616725a3046d95692e43ecc1288') in 0.018372 seconds
-  Import took 0.025330 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.683079 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_07.png
-  artifactKey: Guid(12e406bf36c098848abe2904898aac35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_07.png using Guid(12e406bf36c098848abe2904898aac35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7faef22ac5f614d8babf38f33d3457') in 0.055032 seconds
-  Import took 0.061063 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.555731 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_08.png
-  artifactKey: Guid(792750f1617b4bc4495b38b4c7b0aec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_08.png using Guid(792750f1617b4bc4495b38b4c7b0aec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8337ebe9297548d5fa434c894a316ef') in 0.045571 seconds
-  Import took 0.050357 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.207876 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_09.png
-  artifactKey: Guid(e45d86a40fc0f4940a8d7322e4ca469c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_09.png using Guid(e45d86a40fc0f4940a8d7322e4ca469c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4999164ea15d14024c2e8682a17b821e') in 0.023734 seconds
-  Import took 0.030493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.777498 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_10.png
-  artifactKey: Guid(5ea865ce890466f49ae74b79c3a4d468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_10.png using Guid(5ea865ce890466f49ae74b79c3a4d468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54d028b6157b3a0ec94bf4b525ee98b') in 0.039048 seconds
-  Import took 0.045329 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.258381 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_11.png
-  artifactKey: Guid(78ac458486c3eb14482b5f4b387fef3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_11.png using Guid(78ac458486c3eb14482b5f4b387fef3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc2d2d8fb774ef0d786f7be561e71e9') in 0.040926 seconds
-  Import took 0.046830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.693387 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_12.png
-  artifactKey: Guid(e949f267ce246e14b9476c10b348501b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/Barrel Red/plume_explode_02_yellow_12.png using Guid(e949f267ce246e14b9476c10b348501b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df257186062ce05614c084d9dfdeaad') in 0.038064 seconds
-  Import took 0.043560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 179.152361 seconds.
-  path: Assets/Animation/Obstacles/Bombs/barrel_red.controller
-  artifactKey: Guid(c6728e1508486c449bce5838b0302851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Obstacles/Bombs/barrel_red.controller using Guid(c6728e1508486c449bce5838b0302851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d5528e6a49b03fb7824490eadb8d9e') in 0.005169 seconds
-  Import took 0.010607 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.445162 seconds.
-  path: Assets/Animation/Obstacles/Bombs/BarrelRedExplotion.anim
-  artifactKey: Guid(19a3e158868482c46842826c1ef2b601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Obstacles/Bombs/BarrelRedExplotion.anim using Guid(19a3e158868482c46842826c1ef2b601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f99ae5c502b25cf23efae2800a887a') in 0.010549 seconds
-  Import took 0.015975 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002341 seconds.
+Registered in 0.001613 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.468 seconds
+- Completed reload, in  1.602 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1761 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.6 MB.
-System memory in use after: 85.7 MB.
+Unloading 1905 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.3 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2247.
-Total: 3.037800 ms (FindLiveObjects: 0.255100 ms CreateObjectMapping: 0.078900 ms MarkObjects: 2.640600 ms  DeleteObjects: 0.061100 ms)
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2383.
+Total: 3.086100 ms (FindLiveObjects: 0.219700 ms CreateObjectMapping: 0.080500 ms MarkObjects: 2.692400 ms  DeleteObjects: 0.091400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
-Received Import Request.
-  Time since last request: 60.351895 seconds.
-  path: Assets/Prefabe/Obstacles/Bombs/barrel_red.prefab
-  artifactKey: Guid(9c811c0394eb20c428e3d8e59f006065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Obstacles/Bombs/barrel_red.prefab using Guid(9c811c0394eb20c428e3d8e59f006065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748dc8f91b51dd4bb3e5c20157dbdd6f') in 0.100151 seconds
-  Import took 0.104560 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002350 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.592 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1905 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.3 MB.
 
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2386.
+Total: 3.181700 ms (FindLiveObjects: 0.248200 ms CreateObjectMapping: 0.101700 ms MarkObjects: 2.686100 ms  DeleteObjects: 0.143500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002940 seconds.
+Registered in 0.002589 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.595 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1905 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.3 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2389.
+Total: 2.800500 ms (FindLiveObjects: 0.219800 ms CreateObjectMapping: 0.085300 ms MarkObjects: 2.410200 ms  DeleteObjects: 0.083200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002633 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.00 ms, found 0 plugins.
@@ -1400,350 +477,70 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.600 seconds
+- Completed reload, in  1.588 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1905 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.3 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2392.
+Total: 3.288600 ms (FindLiveObjects: 0.316300 ms CreateObjectMapping: 0.082300 ms MarkObjects: 2.764700 ms  DeleteObjects: 0.123900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002500 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.608 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.95 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1905 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.3 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2395.
+Total: 3.152200 ms (FindLiveObjects: 0.232600 ms CreateObjectMapping: 0.083000 ms MarkObjects: 2.716100 ms  DeleteObjects: 0.119000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002485 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.653 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1761 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.6 MB.
-System memory in use after: 85.7 MB.
+Unloading 1905 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.3 MB.
+System memory in use after: 90.4 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2251.
-Total: 3.164900 ms (FindLiveObjects: 0.233100 ms CreateObjectMapping: 0.084100 ms MarkObjects: 2.799500 ms  DeleteObjects: 0.046200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 27.109372 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/pngs/flamable_barrel_red.png
-  artifactKey: Guid(d504bdeaed0e5f0428c450ef98e9b091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/pngs/flamable_barrel_red.png using Guid(d504bdeaed0e5f0428c450ef98e9b091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9dc5e5228be5e30eb8088d3f4d31d0') in 0.102182 seconds
-  Import took 0.108047 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 128.317365 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/TNT
-  artifactKey: Guid(eb5b329283a96474e8df9798f8442c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/TNT using Guid(eb5b329283a96474e8df9798f8442c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392a792b1ed1ae4ece9925125e33c4b5') in 0.008580 seconds
-  Import took 0.014955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.803579 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_2.png
-  artifactKey: Guid(e63b2d727c03e1d4a83bd427f71934d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_2.png using Guid(e63b2d727c03e1d4a83bd427f71934d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae8e42ae07f068d082463c63737940c') in 0.038071 seconds
-  Import took 0.044398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000530 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_04.png
-  artifactKey: Guid(81fcffaaa19065342ad974d3dcf18642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_04.png using Guid(81fcffaaa19065342ad974d3dcf18642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e443ef40470cccafbdd17767e075457b') in 0.033577 seconds
-  Import took 0.040393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000397 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_2.png
-  artifactKey: Guid(e63b2d727c03e1d4a83bd427f71934d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_2.png using Guid(e63b2d727c03e1d4a83bd427f71934d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae8e42ae07f068d082463c63737940c') in 0.022512 seconds
-  Import took 0.028397 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000425 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_05.png
-  artifactKey: Guid(98e752d1ed88d8049bfbaa9885b86f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_05.png using Guid(98e752d1ed88d8049bfbaa9885b86f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5503bd19eed23e459fa12fc1f54e84fb') in 0.030408 seconds
-  Import took 0.037101 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000458 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_06.png
-  artifactKey: Guid(8a4e8c47c5a2c3545af614b4e7f98865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_06.png using Guid(8a4e8c47c5a2c3545af614b4e7f98865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8b81d6ce2c665e67192ef81eb1498b') in 0.027213 seconds
-  Import took 0.034030 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000498 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_03.png
-  artifactKey: Guid(bda70f9687970cd47a7ce0cfef7acfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_03.png using Guid(bda70f9687970cd47a7ce0cfef7acfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ae8cc26f9276fa65e439159865de5a') in 0.035574 seconds
-  Import took 0.043371 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.488516 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_2.png
-  artifactKey: Guid(e63b2d727c03e1d4a83bd427f71934d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_2.png using Guid(e63b2d727c03e1d4a83bd427f71934d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49dd8bcfb7ecf2566368ca6a39c91c70') in 0.025235 seconds
-  Import took 0.030290 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_04.png
-  artifactKey: Guid(81fcffaaa19065342ad974d3dcf18642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_04.png using Guid(81fcffaaa19065342ad974d3dcf18642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b459246fae5fc68285c54bcad7d109f') in 0.025893 seconds
-  Import took 0.032694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_2.png
-  artifactKey: Guid(e63b2d727c03e1d4a83bd427f71934d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_2.png using Guid(e63b2d727c03e1d4a83bd427f71934d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49dd8bcfb7ecf2566368ca6a39c91c70') in 0.024289 seconds
-  Import took 0.030315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_05.png
-  artifactKey: Guid(98e752d1ed88d8049bfbaa9885b86f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_05.png using Guid(98e752d1ed88d8049bfbaa9885b86f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981c087519e0f8a494cf0af20732c5ad') in 0.026909 seconds
-  Import took 0.032437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000444 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_06.png
-  artifactKey: Guid(8a4e8c47c5a2c3545af614b4e7f98865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_06.png using Guid(8a4e8c47c5a2c3545af614b4e7f98865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45f5e7130ba1ddd3ef729b61bdffaac') in 0.017763 seconds
-  Import took 0.024178 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000502 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_03.png
-  artifactKey: Guid(bda70f9687970cd47a7ce0cfef7acfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_03.png using Guid(bda70f9687970cd47a7ce0cfef7acfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a315735544780229ff2e45f6ed73aa') in 0.017674 seconds
-  Import took 0.023423 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.350879 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_2.png
-  artifactKey: Guid(e63b2d727c03e1d4a83bd427f71934d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_2.png using Guid(e63b2d727c03e1d4a83bd427f71934d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461913db3090764153e3eab4498d2775') in 0.034308 seconds
-  Import took 0.039835 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.561469 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_03.png
-  artifactKey: Guid(bda70f9687970cd47a7ce0cfef7acfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_03.png using Guid(bda70f9687970cd47a7ce0cfef7acfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d66870f1cc13f0c18e423996a2d452') in 0.024925 seconds
-  Import took 0.031437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.236720 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_04.png
-  artifactKey: Guid(81fcffaaa19065342ad974d3dcf18642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_04.png using Guid(81fcffaaa19065342ad974d3dcf18642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca97d91293cdf8224d351bf789c50b04') in 0.031304 seconds
-  Import took 0.036825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000669 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_04.png
-  artifactKey: Guid(81fcffaaa19065342ad974d3dcf18642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_04.png using Guid(81fcffaaa19065342ad974d3dcf18642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca97d91293cdf8224d351bf789c50b04') in 0.026981 seconds
-  Import took 0.032224 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.710222 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_05.png
-  artifactKey: Guid(98e752d1ed88d8049bfbaa9885b86f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_05.png using Guid(98e752d1ed88d8049bfbaa9885b86f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c233d4f0a72c8ec796526524301c29') in 0.032928 seconds
-  Import took 0.038371 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.429932 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_06.png
-  artifactKey: Guid(8a4e8c47c5a2c3545af614b4e7f98865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/Explotion/TNT/explode_01_blue_06.png using Guid(8a4e8c47c5a2c3545af614b4e7f98865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0714036fb8ba0b18f94be3a02d7cac20') in 0.011560 seconds
-  Import took 0.017086 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002675 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.614 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1761 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.6 MB.
-System memory in use after: 85.7 MB.
-
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2259.
-Total: 3.823900 ms (FindLiveObjects: 0.230500 ms CreateObjectMapping: 0.083300 ms MarkObjects: 3.453300 ms  DeleteObjects: 0.054800 ms)
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2398.
+Total: 2.848300 ms (FindLiveObjects: 0.425900 ms CreateObjectMapping: 0.057300 ms MarkObjects: 2.273100 ms  DeleteObjects: 0.090500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 304.653758 seconds.
-  path: Assets/Animation/Obstacles/Bombs/TNT.controller
-  artifactKey: Guid(1bf0ba613bb9fd348bb9e82afe6a7c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Obstacles/Bombs/TNT.controller using Guid(1bf0ba613bb9fd348bb9e82afe6a7c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2beb2e23ea8bcf21f19da48199ab694c') in 0.021995 seconds
-  Import took 0.027446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.290516 seconds.
-  path: Assets/Animation/Obstacles/Bombs/TNTExplotion.anim
-  artifactKey: Guid(fee422cabcd46a44c90f436875638ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Obstacles/Bombs/TNTExplotion.anim using Guid(fee422cabcd46a44c90f436875638ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a586f97bfb520c97ecbed174dbcd019c') in 0.009815 seconds
-  Import took 0.015702 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005300 seconds.
-  path: Assets/Animation/Obstacles/Bombs/TNTExplotion.anim
-  artifactKey: Guid(fee422cabcd46a44c90f436875638ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Obstacles/Bombs/TNTExplotion.anim using Guid(fee422cabcd46a44c90f436875638ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a586f97bfb520c97ecbed174dbcd019c') in 0.003444 seconds
-  Import took 0.007679 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002432 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.632 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1761 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.6 MB.
-System memory in use after: 85.7 MB.
-
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2262.
-Total: 3.059500 ms (FindLiveObjects: 0.226700 ms CreateObjectMapping: 0.078000 ms MarkObjects: 2.714100 ms  DeleteObjects: 0.038800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 39.623454 seconds.
-  path: Assets/Prefabe/Obstacles/Bombs/TNT.prefab
-  artifactKey: Guid(7b7fb7ecfb8cea94bbab2b34ff2c28a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Obstacles/Bombs/TNT.prefab using Guid(7b7fb7ecfb8cea94bbab2b34ff2c28a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fa4b7cbf25bdf0501f6fa5e92c26b6') in 0.097127 seconds
-  Import took 0.102066 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.902940 seconds.
-  path: Assets/Sprite/Obstacles/Bombs/pngs/tnt_barrel_face_on.png
-  artifactKey: Guid(4db8e864c1f2fbb4bbcdafda3bd9dd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Obstacles/Bombs/pngs/tnt_barrel_face_on.png using Guid(4db8e864c1f2fbb4bbcdafda3bd9dd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf9fb77378a7c0d78d02d6b1d548ba7') in 0.065641 seconds
-  Import took 0.072101 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 60.883709 seconds.
-  path: Assets/Prefabe/Platforms/Fallen Paltforms/cool_stone.prefab
-  artifactKey: Guid(ebe6fc264e501f54eb6431f8c9a2659e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Platforms/Fallen Paltforms/cool_stone.prefab using Guid(ebe6fc264e501f54eb6431f8c9a2659e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb66d7fced391f11ff6c740131ddd81') in 0.025087 seconds
-  Import took 0.031482 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002120 seconds.
-  path: Assets/Prefabe/Platforms/Fallen Paltforms/cool_stone.prefab
-  artifactKey: Guid(ebe6fc264e501f54eb6431f8c9a2659e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Platforms/Fallen Paltforms/cool_stone.prefab using Guid(ebe6fc264e501f54eb6431f8c9a2659e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb66d7fced391f11ff6c740131ddd81') in 0.022045 seconds
-  Import took 0.028313 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.386259 seconds.
-  path: Assets/Prefabe/Platforms/Fallen Paltforms/cool_stone.prefab
-  artifactKey: Guid(ebe6fc264e501f54eb6431f8c9a2659e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Platforms/Fallen Paltforms/cool_stone.prefab using Guid(ebe6fc264e501f54eb6431f8c9a2659e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d476a50347d45a81771632bf9a686e') in 0.020455 seconds
-  Import took 0.027025 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.233125 seconds.
-  path: Assets/Prefabe/Platforms/Fallen Paltforms/cool_stone.prefab
-  artifactKey: Guid(ebe6fc264e501f54eb6431f8c9a2659e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Platforms/Fallen Paltforms/cool_stone.prefab using Guid(ebe6fc264e501f54eb6431f8c9a2659e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9907e823824345ae58bfc1b31aee7513') in 0.014641 seconds
-  Import took 0.020392 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.506933 seconds.
-  path: Assets/Prefabe/Platforms/Fallen Paltforms/cool_stone.prefab
-  artifactKey: Guid(ebe6fc264e501f54eb6431f8c9a2659e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Platforms/Fallen Paltforms/cool_stone.prefab using Guid(ebe6fc264e501f54eb6431f8c9a2659e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd22231cc75bbbd8cd2d50f3ca7677fe4') in 0.014321 seconds
-  Import took 0.030022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 70.388756 seconds.
-  path: Assets/Prefabe/Platforms/Fallen Paltforms/cool_stone.prefab
-  artifactKey: Guid(ebe6fc264e501f54eb6431f8c9a2659e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Platforms/Fallen Paltforms/cool_stone.prefab using Guid(ebe6fc264e501f54eb6431f8c9a2659e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da5ceb97a52b0140cd87082178104a0') in 0.021893 seconds
-  Import took 0.028007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.988205 seconds.
-  path: Assets/Prefabe/Platforms/Fallen Paltforms/warm_stone.prefab
-  artifactKey: Guid(f22148b0324550b4cb7cf8eb10c6f309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Platforms/Fallen Paltforms/warm_stone.prefab using Guid(f22148b0324550b4cb7cf8eb10c6f309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa4c3d0713964c1c843599b701e9d03') in 0.023268 seconds
-  Import took 0.038606 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.747612 seconds.
-  path: Assets/Prefabe/Platforms/Fallen Paltforms/warm_stone.prefab
-  artifactKey: Guid(f22148b0324550b4cb7cf8eb10c6f309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Platforms/Fallen Paltforms/warm_stone.prefab using Guid(f22148b0324550b4cb7cf8eb10c6f309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1e1424076397633baa125d19586aff') in 0.014318 seconds
-  Import took 0.019736 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.155883 seconds.
-  path: Assets/Prefabe/Platforms/Fallen Paltforms/wood_face.prefab
-  artifactKey: Guid(3662883d27bbe3f48baed9350c42317c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Platforms/Fallen Paltforms/wood_face.prefab using Guid(3662883d27bbe3f48baed9350c42317c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17833fa4c9c885492ca8784fd65922fd') in 0.026655 seconds
-  Import took 0.033002 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 49.609787 seconds.
-  path: Assets/Prefabe/Platforms/Fallen Paltforms/wood_face.prefab
-  artifactKey: Guid(3662883d27bbe3f48baed9350c42317c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Platforms/Fallen Paltforms/wood_face.prefab using Guid(3662883d27bbe3f48baed9350c42317c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d282c7e4242c34652bb764d6381c34') in 0.016883 seconds
-  Import took 0.022634 seconds .
-
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
