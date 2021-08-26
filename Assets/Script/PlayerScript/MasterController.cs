@@ -143,9 +143,9 @@ public class MasterController : MonoBehaviour {
 		CM1.Follow = motorInstance.transform;
 
 
-		backGround = GameObject.Find ("BackGround");
+		/*backGround = GameObject.Find ("BackGround");
 		backgroundControll controlback = (backgroundControll)backGround.GetComponent (typeof(backgroundControll));
-		controlback.SetTarget ();
+		controlback.SetTarget ();*/
 
 		turbo = GameObject.Find ("TakeOff");
 		Turbo turboSc = (Turbo)turbo.GetComponent (typeof(Turbo));
