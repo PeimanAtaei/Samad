@@ -7,9 +7,6 @@ using UnityEngine.SceneManagement;
 public class GameUIController : MonoBehaviour {
 
 	private MasterController master;
-	private Motory motor;
-	private AlarmManager alarmManager;
-	private GunController gunController;
 	public GameObject pusePage,deadPage,finishPage,musicPage;
 	private Animator transmitPage;
 	public string nextLevel;
@@ -28,9 +25,6 @@ public class GameUIController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		master = FindObjectOfType<MasterController>();
-		motor = FindObjectOfType<Motory>();
-		alarmManager = FindObjectOfType<AlarmManager>();
-		gunController = FindObjectOfType<GunController>();
 		transmitPage = GameObject.Find("Canvas/TransmitPage").GetComponent<Animator>();
 
 
@@ -47,13 +41,13 @@ public class GameUIController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		UpdateRoadProgressBar ();
-		if (motor == null)
+		if (master.theMotory == null)
 			FindMotor();
 	}
 
 	private void FindMotor()
     {
-		motor = FindObjectOfType<Motory>();
+		master.theMotory = FindObjectOfType<Motory>();
 	}
 
 	// Game Menu Buttons -------------------------------------------------------------------------
@@ -103,7 +97,7 @@ public class GameUIController : MonoBehaviour {
 
 	public void GunBtn()
 	{
-		gunIsOpen = gunController.gunIsUsed;
+		gunIsOpen = master.gunController.gunIsUsed;
 		if (master.bulletCount > 0) {
 			if (!gunIsOpen) {
 				
@@ -114,7 +108,8 @@ public class GameUIController : MonoBehaviour {
 				CloseGun ();
 			}
 		} else {
-			alarmManager.ShowMessege ("no enough bullet!");
+			master.alarmManager.ShowMessege ("no enough bullet!");
+			master.alarmManager.PlayCharactorVoice(5);
 			if (gunIsOpen) {
 				
 				CloseGun ();
@@ -131,20 +126,21 @@ public class GameUIController : MonoBehaviour {
     }
 	public IEnumerator ShieldMethod()
     {
-		if(!motor.shield && master.shieldCount>0)
+		if(!master.theMotory.shield && master.shieldCount>0)
         {
 			Debug.Log("use shield");
-			motor.shield = true;
+			master.theMotory.shield = true;
 			Animator shieldAnim = GameObject.Find("Player/Shield").GetComponent<Animator>();
 			shieldAnim.Play("ShieldAnim");
 			master.shieldCount--;
 			master.Setdata();
 			yield return new WaitForSeconds(20f);
-			motor.shield = false;
+			master.theMotory.shield = false;
 		}else if(master.shieldCount == 0)
         {
 			Debug.Log("no enough Shield");
-			alarmManager.ShowMessege("no enough Shield!");
+			master.alarmManager.ShowMessege("no enough Shield!");
+			master.alarmManager.PlayCharactorVoice(7);
 		}else
 			Debug.Log("no");
 
@@ -152,24 +148,24 @@ public class GameUIController : MonoBehaviour {
 
 	public void OpenGun()
 	{
-		gunController.gunIsUsed = true;
-		gunController.FindGunObjects ();
-		gunController.gunAnim.Play ("GunOpen");
-		gunController.gunSounds.clip = gunController.shootingSounds [0];
-		gunController.gunSounds.loop = false;
-		gunController.gunSounds.Play ();
-		gunController.joystickObj.SetActive (true);
+		master.gunController.gunIsUsed = true;
+		master.gunController.FindGunObjects ();
+		master.gunController.gunAnim.Play ("GunOpen");
+		master.gunController.gunSounds.clip = master.gunController.shootingSounds [0];
+		master.gunController.gunSounds.loop = false;
+		master.gunController.gunSounds.Play ();
+		master.gunController.joystickObj.SetActive (true);
 	}
 
 	public void CloseGun()
 	{
-		gunController.gunIsUsed = false;
-		gunController.FindGunObjects ();
-		gunController.gunAnim.Play ("GunClose");
-		gunController.gunSounds.clip = gunController.shootingSounds [0];
-		gunController.gunSounds.loop = false;
-		gunController.gunSounds.Play ();
-		gunController.joystickObj.SetActive (false);
+		master.gunController.gunIsUsed = false;
+		master.gunController.FindGunObjects ();
+		master.gunController.gunAnim.Play ("GunClose");
+		master.gunController.gunSounds.clip = master.gunController.shootingSounds [0];
+		master.gunController.gunSounds.loop = false;
+		master.gunController.gunSounds.Play ();
+		master.gunController.joystickObj.SetActive (false);
 	}
 
 	public void StartMainMenu()

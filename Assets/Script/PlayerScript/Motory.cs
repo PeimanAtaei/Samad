@@ -50,7 +50,9 @@ public class Motory : MonoBehaviour {
 			{
 				masterController.lastCheckPoint = other.transform;
 				masterController.checkPointRocks = masterController.rockCount;
-				masterController.Setdata ();
+				masterController.alarmManager.PlayCharactorVoice(8);
+				masterController.alarmManager.ShowMessege("Game Saved");
+				//masterController.Setdata ();
 				break;
 			}
 		case "finishPoint":

@@ -7,7 +7,9 @@ public class AlarmManager : MonoBehaviour
 {
     // Start is called before the first frame update
 	public Animator messegeAnim;
-	public Text messegeText,charactorText;
+	public Text messegeText;
+	public AudioSource audioSource;
+	public AudioClip[] voices;
 
 	public void ShowMessege(string newText)
 	{
@@ -15,16 +17,10 @@ public class AlarmManager : MonoBehaviour
 		messegeAnim.Play ("messegeAnim");
 	}
 
-	public void ShowCharactorChat(string newText,int voice)
+	public void PlayCharactorVoice(int msg)
 	{
-		charactorText.text = newText;
-		StartCoroutine("ChatDelay");
+		audioSource.clip = voices[msg];
+		audioSource.Play();
 	}
 
-	public IEnumerator ChatDelay()
-	{
-		messegeAnim.Play("chatOpenAnim");
-		yield return new WaitForSeconds(10f);
-		messegeAnim.Play("chatCloseAnim");
-	}
 }

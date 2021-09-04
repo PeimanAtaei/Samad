@@ -1,0 +1,504 @@
+fileFormatVersion: 2
+guid: 90016ef1e09a6cf4d87a230be9d5a7c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8254667365975015765
+    second: __stork_white_wings_flying_2_0
+  - first:
+      213: -5862275432149062109
+    second: __stork_white_wings_flying_2_1
+  - first:
+      213: 9137090241088515289
+    second: __stork_white_wings_flying_2_2
+  - first:
+      213: -1996276336450570284
+    second: __stork_white_wings_flying_2_3
+  - first:
+      213: -4864732690432753562
+    second: __stork_white_wings_flying_2_4
+  - first:
+      213: -257658089112898982
+    second: __stork_white_wings_flying_2_5
+  - first:
+      213: -4546789064529758360
+    second: __stork_white_wings_flying_2_6
+  - first:
+      213: -25874247232137998
+    second: __stork_white_wings_flying_2_7
+  - first:
+      213: 1442985618261412260
+    second: __stork_white_wings_flying_2_8
+  - first:
+      213: -8578932403624118477
+    second: __stork_white_wings_flying_2_9
+  - first:
+      213: 3713845420122141272
+    second: __stork_white_wings_flying_2_10
+  - first:
+      213: -2114615910159754251
+    second: __stork_white_wings_flying_2_11
+  - first:
+      213: -6117560838174589347
+    second: __stork_white_wings_flying_2_12
+  - first:
+      213: 180779829669672631
+    second: __stork_white_wings_flying_2_13
+  - first:
+      213: 3808596412817064681
+    second: __stork_white_wings_flying_2_14
+  - first:
+      213: 254538134060006925
+    second: __stork_white_wings_flying_2_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: __stork_white_wings_flying_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 747
+        width: 519
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baebc0804c7817d80800000000000000
+      internalID: -8254667365975015765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __stork_white_wings_flying_2_1
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 747
+        width: 519
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e614bdd8305aea0800000000000000
+      internalID: -5862275432149062109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __stork_white_wings_flying_2_2
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 747
+        width: 519
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dce4c4f9277dce70800000000000000
+      internalID: 9137090241088515289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __stork_white_wings_flying_2_3
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 747
+        width: 519
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7785caf3dcb44e0800000000000000
+      internalID: -1996276336450570284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __stork_white_wings_flying_2_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 498
+        width: 519
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660868b746ffc7cb0800000000000000
+      internalID: -4864732690432753562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __stork_white_wings_flying_2_5
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 498
+        width: 519
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a527be4455d9c6cf0800000000000000
+      internalID: -257658089112898982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __stork_white_wings_flying_2_6
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 498
+        width: 519
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867b21c8f6f86e0c0800000000000000
+      internalID: -4546789064529758360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __stork_white_wings_flying_2_7
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 498
+        width: 519
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4d5ec528314aff0800000000000000
+      internalID: -25874247232137998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __stork_white_wings_flying_2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 249
+        width: 519
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9087846c3860410800000000000000
+      internalID: 1442985618261412260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __stork_white_wings_flying_2_9
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 249
+        width: 519
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33775e99e6281f880800000000000000
+      internalID: -8578932403624118477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __stork_white_wings_flying_2_10
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 249
+        width: 519
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85277199bba3a8330800000000000000
+      internalID: 3713845420122141272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __stork_white_wings_flying_2_11
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 249
+        width: 519
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbd98e880067a2e0800000000000000
+      internalID: -2114615910159754251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __stork_white_wings_flying_2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 519
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e33c474de0a1ba0800000000000000
+      internalID: -6117560838174589347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __stork_white_wings_flying_2_13
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 0
+        width: 519
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6340a1c42428200800000000000000
+      internalID: 180779829669672631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __stork_white_wings_flying_2_14
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 0
+        width: 519
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2c9c6324adad430800000000000000
+      internalID: 3808596412817064681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __stork_white_wings_flying_2_15
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 0
+        width: 519
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0eff66951d488300800000000000000
+      internalID: 254538134060006925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

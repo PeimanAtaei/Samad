@@ -21,7 +21,7 @@ public class Chicken : MonoBehaviour {
 		questManager = FindObjectOfType<LevelQuestsManager>();
 		anim = gameObject.GetComponent<Animator> ();
 		audioSource = GameObject.Find ("MasterController/Master Audio").GetComponent<AudioSource>();
-		alarmManager = FindObjectOfType<AlarmManager>();
+		
 	}
 	
 
@@ -51,7 +51,6 @@ public class Chicken : MonoBehaviour {
 			Destroy (rewardObj);
 			Destroy (gameObject);
 		}
-		//alarmManager.ShowCharactorChat("what a big chance... I really need it", 0);
 		questManager.CheckChickenQuests();
 		
 	}

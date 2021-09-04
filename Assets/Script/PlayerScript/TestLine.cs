@@ -7,7 +7,7 @@ public class TestLine : MonoBehaviour {
 	
 	
 	public Transform baseDot;
-	public bool canInstantiate = true;
+	public bool canInstantiate = true,canSayDialog = true;
 	private Vector3 mousepos;
 	private MasterController master;
 
@@ -36,6 +36,17 @@ public class TestLine : MonoBehaviour {
 			Instantiate (baseDot,mousePosition,Quaternion.identity);
 			master.rockCount--;
 			master.Setdata ();
+		}
+		else if(master.rockCount<=0 && canSayDialog)
+        {
+			canSayDialog = false;
+			master.alarmManager.PlayCharactorVoice(6);
+			master.alarmManager.ShowMessege("You Have no stone");
+        }
+
+		else if (master.rockCount > 0 && !canSayDialog)
+		{
+			canSayDialog = true;
 		}
 
 	}

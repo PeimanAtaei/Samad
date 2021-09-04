@@ -12,10 +12,11 @@ public class HelpSc : MonoBehaviour
     public VideoClip[] vidClip;
     private int step=0;
     public GameObject next;
-    public Animator transmitPage;
+    private Animator transmitPage;
 
     public void Start()
     {
+        transmitPage = GameObject.Find("Canvas/TransmitPage").GetComponent<Animator>();
         StartCoroutine("NextButtonDelay");
     }
 

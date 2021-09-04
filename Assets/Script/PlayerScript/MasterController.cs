@@ -12,9 +12,10 @@ public class MasterController : MonoBehaviour {
 	public AudioSource masterAudio,enginAudio,speakAudio;
 	public GameObject canvas,deadScreen,motor,musicAudio;
 	private Rigidbody2D playerRG;
-	private Motory theMotory;
-	private GameUIController gameUIController;
-	private GunController gunController;
+	public Motory theMotory;
+	public GameUIController gameUIController;
+	public GunController gunController;
+	public AlarmManager alarmManager;
 	public int      levelNumber,coinCount, bulletCount, shieldCount, rockCount,checkPointRocks,deadCount = 0;
 	public Text     coinText,bulletText,ShieldText,rockText;
 	public GameObject loadingPage,finishPage;
@@ -40,6 +41,7 @@ public class MasterController : MonoBehaviour {
 		theMotory = FindObjectOfType<Motory>();
 		gameUIController = FindObjectOfType<GameUIController>();
 		gunController = FindObjectOfType<GunController>();
+		alarmManager = FindObjectOfType<AlarmManager>();
 		enginAudio = GameObject.Find ("MasterController/EnginAudio").GetComponent<AudioSource> ();
 		checkPointRocks = rockCount;
 		CM1 = FindObjectOfType<CinemachineVirtualCamera>();
@@ -91,6 +93,7 @@ public class MasterController : MonoBehaviour {
 			deadScreen.SetActive(true);
 			SaveData();
 			PlayerPrefs.SetInt("totalDead", PlayerPrefs.GetInt("totalDead") + 1);
+			alarmManager.PlayCharactorVoice(Random.Range(0,5));
 		}
 	}
 
@@ -143,10 +146,6 @@ public class MasterController : MonoBehaviour {
 		CM1.Follow = motorInstance.transform;
 
 
-		backGround = GameObject.Find ("BackGround");
-		backgroundControll controlback = (backgroundControll)backGround.GetComponent (typeof(backgroundControll));
-		controlback.SetTarget ();
-
 		turbo = GameObject.Find ("TakeOff");
 		Turbo turboSc = (Turbo)turbo.GetComponent (typeof(Turbo));
 		turboSc.SetTaregt ();
@@ -159,7 +158,7 @@ public class MasterController : MonoBehaviour {
 		enginAudio.Play();
 		rockCount = checkPointRocks;
 		Setdata ();
-		SaveData();
+		//SaveData();
 		DestroyCloneObjects ();
 	}
 
@@ -173,6 +172,8 @@ public class MasterController : MonoBehaviour {
 			PlayerPrefs.SetInt("Bullet", bulletCount);
 		if(shieldCount<PlayerPrefs.GetInt("Shield"))
 			PlayerPrefs.SetInt("Shield", shieldCount);
+
+		
 
 		//int Cups = (Mathf.RoundToInt(motor.transform.position.x/10));
 		//Debug.Log(" My Cups : " + Cups);
@@ -205,4 +206,6 @@ public class MasterController : MonoBehaviour {
 			Destroy (item.gameObject);
 		}
 	}
+
+
 }
