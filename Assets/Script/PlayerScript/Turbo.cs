@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class Turbo : MonoBehaviour {
 
+	private CutScinesManager cutScineManager;
 	public AudioSource motorSound = null;
 	public Animator cameraAnim,fireAnim;
 	public WheelJoint2D backJoint , frontJoint ;
-	private JointMotor2D backMotor , frontMotor ;
+	public JointMotor2D backMotor , frontMotor ;
 	private TestLine addLine;
-	private float backSpeed, frontSpeed;
+	public float backSpeed, frontSpeed;
 
 	private void Start()
 	{
+		cutScineManager = FindObjectOfType<CutScinesManager>();
 		addLine = FindObjectOfType<TestLine> ();
 	}
 
@@ -42,42 +44,42 @@ public class Turbo : MonoBehaviour {
 
 	public void onPress()
 	{
+		if(cutScineManager.canPlay)
+        {
+			addLine.canInstantiate = false;
+			backMotor.motorSpeed = backSpeed * 2.5f;
+			backMotor.maxMotorTorque = 10000;
+
+			frontMotor.motorSpeed = frontSpeed * 1.5f;
+			frontMotor.maxMotorTorque = 10000;
+
+			backJoint.motor = backMotor;
+			frontJoint.motor = frontMotor;
+
+			motorSound.Play();
+
+			cameraAnim.Play("TurboZoom");
+			fireAnim.Play("FireStart");
+
+			Debug.Log("press");
+		}
 		
-		addLine.canInstantiate = false;
-		backMotor.motorSpeed = backSpeed*2.5f;
-		backMotor.maxMotorTorque = 10000;
-
-		frontMotor.motorSpeed = frontSpeed*1.5f;
-		frontMotor.maxMotorTorque = 10000;
-
-		backJoint.motor = backMotor;
-		frontJoint.motor = frontMotor;
-
-		motorSound.Play();
-	
-		cameraAnim.Play ("TurboZoom");
-		fireAnim.Play("FireStart");
-
-		Debug.Log ("press");
 	}
 	public void onRelease()
 	{
-		addLine.canInstantiate = true;
-
-		backMotor.motorSpeed = backSpeed*1.5f;
-		backMotor.maxMotorTorque = 10000;
-
-		frontMotor.motorSpeed = frontSpeed;
-		frontMotor.maxMotorTorque = 10000;
-
-		backJoint.motor = backMotor;
-		frontJoint.motor = frontMotor;
-		Debug.Log ("release");
-
-		cameraAnim.Play ("TurboZoomOut");
-		fireAnim.Play("FireFinish");
-
-		motorSound.Stop ();
-
+		if (cutScineManager.canPlay)
+        {
+			addLine.canInstantiate = true;
+			backMotor.motorSpeed = backSpeed * 1.5f;
+			backMotor.maxMotorTorque = 10000;
+			frontMotor.motorSpeed = frontSpeed;
+			frontMotor.maxMotorTorque = 10000;
+			backJoint.motor = backMotor;
+			frontJoint.motor = frontMotor;
+			Debug.Log("release");
+			cameraAnim.Play("TurboZoomOut");
+			fireAnim.Play("FireFinish");
+			motorSound.Stop();
+		}
 	}
 }

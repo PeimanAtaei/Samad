@@ -7,7 +7,7 @@ using Cinemachine;
 public class MasterController : MonoBehaviour {
 
 	public GameObject[] playerPrefabes;
-	public bool canDie ;
+	public bool canDie , saveSound = true;
 	public AudioClip[] gameSounds;
 	public AudioSource masterAudio,enginAudio,speakAudio;
 	public GameObject canvas,deadScreen,motor,musicAudio;

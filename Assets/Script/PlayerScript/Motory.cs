@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class Motory : MonoBehaviour {
 
-   
-	public bool canDie = true,shield = false;
+
+	public bool canDie = true, shield = false;
 	private MasterController masterController;
 	private LevelQuestsManager questManager;
 
@@ -32,26 +32,16 @@ public class Motory : MonoBehaviour {
 					}
 					break;
 			}
-			/*case "ground":
-				{
-					canDie = false;
-					masterController.endGame ();
-					Time.timeScale = 0.05f;
-					break;
-				}
-			case "roof":
-				{
-					canDie = false;
-					masterController.endGame ();
-					Time.timeScale = 0.05f;
-					break;
-				}*/
 			case "checkPoint":
 			{
 				masterController.lastCheckPoint = other.transform;
 				masterController.checkPointRocks = masterController.rockCount;
-				masterController.alarmManager.PlayCharactorVoice(8);
-				masterController.alarmManager.ShowMessege("Game Saved");
+					if(masterController.saveSound)
+                    {
+						masterController.saveSound = false;
+						masterController.alarmManager.PlayCharactorVoice(8);
+						masterController.alarmManager.ShowMessege("Game Saved");
+					}
 				//masterController.Setdata ();
 				break;
 			}

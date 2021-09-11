@@ -24,8 +24,8 @@ public class MainMenu : MonoBehaviour {
 
 		transmitPage = GameObject.Find ("Canvas/TransmitPage").GetComponent<Animator> ();
 		musicAudio = GameObject.Find ("BackGroundMusic");
-		if (!musicAudio.GetComponent<AudioSource> ().isPlaying)
-			musicAudio.GetComponent<AudioSource> ().Play ();
+		/*if (!musicAudio.GetComponent<AudioSource> ().isPlaying)
+			musicAudio.GetComponent<AudioSource> ().Play ();*/
 	}
 
 	public void StoryBotton()
