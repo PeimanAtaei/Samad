@@ -23,7 +23,9 @@ public class FallenPlat : MonoBehaviour
 
     public IEnumerator Collapse()
     {
-        yield return new WaitForSeconds(0.8f);
+        
         anim.Play(clipName);
+        yield return new WaitForSeconds(3f);
+        canCollapse = true;
     }
 }

@@ -84,6 +84,7 @@
     <Compile Include="Assets\Script\PlayerScript\GameUIController.cs" />
     <Compile Include="Assets\Script\MenuScript\Swipemenu.cs" />
     <Compile Include="Assets\Script\EnemyScript\entsShower.cs" />
+    <Compile Include="Assets\Script\LevelsScript\PlatformManager.cs" />
     <Compile Include="Assets\Script\TimeLine\CallCutScine.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
     <Compile Include="Assets\Script\MenuScript\AchievedQuests.cs" />
@@ -100,6 +101,7 @@
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\Script\Platforms\FallenPlat.cs" />
     <Compile Include="Assets\Script\Alarms\AlarmManager.cs" />
+    <Compile Include="Assets\Script\LevelsScript\CheckPointManager.cs" />
     <Compile Include="Assets\Script\StorySc\StoryManager.cs" />
     <Compile Include="Assets\Script\MenuScript\LanguageSc.cs" />
     <Compile Include="Assets\Script\AnimalScript\Chicken.cs" />
