@@ -29,7 +29,7 @@ public class Turbo : MonoBehaviour {
 	{
 		Debug.Log ("Turbo set target");
 		motorSound = GameObject.Find ("MasterController/TurboAudio").GetComponent<AudioSource> ();
-		cameraAnim = GameObject.FindGameObjectWithTag ("MainCamera").GetComponent<Animator>();
+		//cameraAnim = GameObject.FindGameObjectWithTag ("MainCamera").GetComponent<Animator>();
 		fireAnim = GameObject.Find("Player/Fire").GetComponent<Animator>();
 
 		backJoint = GameObject.Find ("Player/motor_back_wheel").GetComponent<WheelJoint2D> ();
@@ -58,7 +58,7 @@ public class Turbo : MonoBehaviour {
 
 			motorSound.Play();
 
-			cameraAnim.Play("TurboZoom");
+			//cameraAnim.Play("TurboZoom");
 			fireAnim.Play("FireStart");
 
 			Debug.Log("press");

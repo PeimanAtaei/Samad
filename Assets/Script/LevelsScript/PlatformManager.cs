@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlatformManager : MonoBehaviour
 {
     // Start is called before the first frame update
-    public GameObject firstDetail, secondDetail, centerDetail, topDetail, downDetail;
+    public GameObject firstDetail, secondDetail, centerDetail,centerDetail2, topDetail,topDetail2, downDetail, downDetail2;
 
     public void VisiblePlatform(int number)
     {
@@ -37,6 +37,27 @@ public class PlatformManager : MonoBehaviour
                 {
                     firstDetail.SetActive(false);
                     downDetail.SetActive(true);
+                    break;
+                }
+
+            case 5:
+                {
+                    secondDetail.SetActive(false);
+                    centerDetail2.SetActive(true);
+                    break;
+                }
+
+            case 6:
+                {
+                    secondDetail.SetActive(false);
+                    downDetail2.SetActive(true);
+                    break;
+                }
+
+            case 7:
+                {
+                    secondDetail.SetActive(false);
+                    topDetail2.SetActive(true);
                     break;
                 }
         }
