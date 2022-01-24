@@ -21,11 +21,11 @@ public class MovingLands : MonoBehaviour {
 
 		objectToMove.transform.position = Vector3.MoveTowards (objectToMove.transform.position,currentPosition,moveSpeed*Time.deltaTime);
 
-		if(objectToMove.transform.position == endObj.position)
+		if(objectToMove.transform.position.x >= endObj.position.x)
 		{
 			currentPosition = startObj.position;
 		}
-		else if(objectToMove.transform.position == startObj.position)
+		else if(objectToMove.transform.position.x <= startObj.position.x)
 		{
 			currentPosition = endObj.position;
 		}
