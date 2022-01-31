@@ -17,7 +17,7 @@ public class Bomb : MonoBehaviour
     {
         masterController = FindObjectOfType<MasterController>();
         anim = gameObject.GetComponent<Animator>();
-        audioSource = GameObject.Find("MasterController/Master Audio").GetComponent<AudioSource>();
+        audioSource = GameObject.Find("MasterController/EffectsAudio").GetComponent<AudioSource>();
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -29,6 +29,8 @@ public class Bomb : MonoBehaviour
             anim.Play(animName + "Explotion");
             audioSource.clip = sound;
             audioSource.Play();
+            masterController.endGame();
+            Time.timeScale = 0.05f;
         }/*
         switch (other.tag)
         {
