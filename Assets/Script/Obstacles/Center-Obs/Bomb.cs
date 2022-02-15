@@ -11,6 +11,7 @@ public class Bomb : MonoBehaviour
     public bool canDestroy = true;
     public string animName;
     public AudioClip sound;
+    public int damage;
 
     // Start is called before the first frame update
     void Start()
@@ -29,18 +30,9 @@ public class Bomb : MonoBehaviour
             anim.Play(animName + "Explotion");
             audioSource.clip = sound;
             audioSource.Play();
-            masterController.endGame();
-            Time.timeScale = 0.05f;
-        }/*
-        switch (other.tag)
-        {
-
-            case "player":
-                {
-                    
-                    break;
-                }
-        }*/
-       
+            //masterController.endGame();
+            masterController.DecreaseHeart(damage);
+            //Time.timeScale = 0.05f;
+        }
     }
 }

@@ -72,6 +72,8 @@ public class GameUIController : MonoBehaviour {
 		deadPage.SetActive (false);
 		finishPage.SetActive (false);
 		pusePage.SetActive (false);
+		if (master.heartCount <= 0)
+			master.IncreaseHeart(3);
 		master.LoadCheckPoint ();
 	}
 

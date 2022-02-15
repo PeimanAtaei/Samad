@@ -8,7 +8,7 @@ public class MapManager : MonoBehaviour
 {
 
 	public int SelectedLevel = 1;
-	private Animator startDialog,loadingDialog,transmitPage;
+	private Animator startDialog,loadingDialog,transmitPage,uiElements;
 	public Text loadingText;
 	public Slider loadingSlider;
 	public bool loadingNewScene = false;
@@ -16,9 +16,10 @@ public class MapManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-		startDialog = GameObject.Find ("Canvas/StartDialog").GetComponent<Animator> ();
-		loadingDialog = GameObject.Find ("Canvas/LoadGamePage").GetComponent<Animator> ();
-		transmitPage = GameObject.Find ("Canvas/TransmitPage").GetComponent<Animator> ();
+		startDialog = GameObject.Find ("Canvas/UI Elements/StartDialog").GetComponent<Animator> ();
+		loadingDialog = GameObject.Find ("Canvas/UI Elements/LoadGamePage").GetComponent<Animator> ();
+		transmitPage = GameObject.Find ("Canvas/UI Elements/TransmitPage").GetComponent<Animator> ();
+		uiElements = GameObject.Find ("Canvas/UI Elements").GetComponent<Animator> ();
 
     }
 		
@@ -31,6 +32,11 @@ public class MapManager : MonoBehaviour
 			loadingDialog.Play ("CloseLoadingPage");
 			StartCoroutine (LoadingNewScene());
 		}
+	}
+
+	public void CancelLevel()
+    {
+		startDialog.Play("CloseStartDialog");
 	}
 
 	IEnumerator LoadingNewScene()
@@ -57,6 +63,13 @@ public class MapManager : MonoBehaviour
 		StartCoroutine ("SceneLoadingDelay","FirstStory");
 	}
 
+	public void UpdatedAlarm(int num)
+    {
+		if (num == 1)
+			uiElements.Play("UpdateAlarmShow");
+		else
+			uiElements.Play("UpdateAlarmClose");
+	}
 	private IEnumerator SceneLoadingDelay(string levelName)
 	{
 		transmitPage.Play ("TransmitFadeIn");

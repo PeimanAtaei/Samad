@@ -13,19 +13,21 @@ public class MainMenu : MonoBehaviour {
 	private GameObject musicAudio;
 	public int coinCount,rankCount;
 	public Text coinText, rankText;
+	public AudioSource backGroundSource;
 
 
 	void Start () {
         Time.timeScale = 1;
 		Setdata();
-		//Debug.Log(PlayerPrefs.GetInt("totalCoins"));
-		//PlayerPrefs.DeleteKey("Gold Seeker");
-		//PlayerPrefs.DeleteAll();
 
 		transmitPage = GameObject.Find ("Canvas/TransmitPage").GetComponent<Animator> ();
 		musicAudio = GameObject.Find ("BackGroundMusic");
-		/*if (!musicAudio.GetComponent<AudioSource> ().isPlaying)
-			musicAudio.GetComponent<AudioSource> ().Play ();*/
+
+		CheckFirstGuide();
+		DetectPlatform();
+		GetBackGroundSource();
+		
+
 	}
 
 	public void StoryBotton()
@@ -65,6 +67,15 @@ public class MainMenu : MonoBehaviour {
 
 	}
 
+	public void UpdateAlarm(int num)
+	{
+		if (num == 1)
+			menuAnim.Play("UpdateOpen");
+		else
+			menuAnim.Play("UpdateClose");
+
+	}
+
 	public void Quests(int num)
 	{
 		if (num == 1)
@@ -73,6 +84,40 @@ public class MainMenu : MonoBehaviour {
 			questPannel.SetActive(false);
 
 	}
+
+	public void FreeCoinsOptions(int num)
+    {
+		switch (num)
+		{
+			case 1:
+                {
+					// Video
+					break;
+                }
+			case 2:
+				{
+					// Instagram
+					string instagram = "url:instagram://user?username=atisapp";
+					Application.OpenURL(instagram);
+					break;
+				}
+			case 3:
+				{
+					// Rate
+					break;
+				}
+		}
+    }
+
+	public void CheckFirstGuide()
+    {
+		Debug.Log("start guide");
+		if (PlayerPrefs.GetInt("firstGuide") == 0)
+        {
+			Debug.Log("start guide");
+			menuAnim.Play("FirstGuide");
+		}
+    }
 
 	public void ExitGame()
     {
@@ -85,8 +130,6 @@ public class MainMenu : MonoBehaviour {
         yield return new WaitForSeconds(0.5f);
         SceneManager.LoadScene(levelName);
     }
-
-
     
 	public void Setdata()
 	{
@@ -96,6 +139,43 @@ public class MainMenu : MonoBehaviour {
 		coinText.text = coinCount + "";
 		rankText.text = rankCount + "";
 		
+	}
+
+	public void DetectPlatform()
+    {
+		if(Application.platform == RuntimePlatform.Android)
+        {
+			Debug.Log("Android Player");
+			PlayerPrefs.SetString("platform","android");
+        }
+		else if(Application.platform == RuntimePlatform.IPhonePlayer)
+        {
+			Debug.Log("IPhone Player");
+			PlayerPrefs.SetString("platform", "ios");
+		}
+		else
+		{
+			Debug.Log(Application.platform+"");
+			PlayerPrefs.SetString("platform", "windows");
+		}
+	}
+
+	public void GetBackGroundSource()
+	{
+		backGroundSource = GameObject.Find("BackGroundMusic").GetComponent<AudioSource>();
+		Debug.Log(" not mute"+ PlayerPrefs.GetInt("music"));
+		if (PlayerPrefs.GetInt("music") == 0 && !backGroundSource.isPlaying)
+        {
+			Debug.Log(" not mute");
+			backGroundSource.Play();
+		}
+			
+		if (PlayerPrefs.GetInt("music") == 1)
+        {
+			Debug.Log("mute");
+			backGroundSource.Pause();
+		}
+			
 	}
 
 

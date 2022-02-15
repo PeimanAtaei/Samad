@@ -11,10 +11,13 @@ public class StoryManager : MonoBehaviour
 	public Animator storyAnim,transmitPage;
 	public GameObject nextButton;
 	public AudioClip[] Voices;
-	public AudioSource audioSource;
+	public AudioSource audioSource, backGroundSource;
     void Start()
     {
 		transmitPage = GameObject.Find ("Canvas/TransmitPage").GetComponent<Animator> ();
+		backGroundSource = GameObject.Find("BackGroundMusic").GetComponent<AudioSource>();
+		if (backGroundSource.isPlaying)
+			backGroundSource.mute = true;
 		PlayScene ();
     }
 

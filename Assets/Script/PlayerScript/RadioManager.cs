@@ -16,10 +16,11 @@ public class RadioManager : MonoBehaviour {
 	void Start () {
 
         AddMusics();
-
         RadioSource.clip = clips[0];
+        GetBackGroundSource();
 
-	}
+
+    }
 	
 
     public void StartRadio()
@@ -86,5 +87,11 @@ public class RadioManager : MonoBehaviour {
             clips.Add(newClips[1]);
         }
         
+    }
+
+    private void GetBackGroundSource()
+    {
+        AudioSource backGroundSource = GameObject.Find("BackGroundMusic").GetComponent<AudioSource>();
+        backGroundSource.Pause();
     }
 }

@@ -16,6 +16,7 @@ public class HelpSc : MonoBehaviour
 
     public void Start()
     {
+        PlayerPrefs.SetInt("firstGuide", 1);
         transmitPage = GameObject.Find("Canvas/TransmitPage").GetComponent<Animator>();
         StartCoroutine("NextButtonDelay");
     }

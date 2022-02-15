@@ -9,17 +9,17 @@ public class MasterController : MonoBehaviour {
 	public GameObject[] playerPrefabes;
 	public bool canDie , saveSound = true;
 	public AudioClip[] gameSounds;
-	public AudioSource masterAudio,enginAudio,speakAudio;
-	public GameObject canvas,deadScreen,motor,musicAudio;
-	private Rigidbody2D playerRG;
+	public AudioSource masterAudio,enginAudio,speakAudio,effectAudio,turboAudio;
+	public GameObject canvas,deadScreen,musicAudio,player;
 	public Motory theMotory;
+	private Turbo turboSc;
 	public GameUIController gameUIController;
 	public GunController gunController;
 	public AlarmManager alarmManager;
-	public int      levelNumber,coinCount, bulletCount, shieldCount, rockCount,checkPointRocks,deadCount = 0;
-	public Text     coinText,bulletText,ShieldText,rockText;
+	public int      levelNumber,coinCount, bulletCount, shieldCount, rockCount,checkPointRocks,deadCount = 0,heartCount;
+	public Text     coinText,bulletText,ShieldText,rockText,heartText;
 	public GameObject loadingPage,finishPage;
-	private Animator finishAnim;
+	private Animator finishAnim,playerAnim;
 	public CinemachineVirtualCamera CM1;
 
 
@@ -37,37 +37,32 @@ public class MasterController : MonoBehaviour {
 	void Start () {
 
 		canDie = true;
-		playerRG = GetComponent<Rigidbody2D>();
 		theMotory = FindObjectOfType<Motory>();
 		gameUIController = FindObjectOfType<GameUIController>();
 		gunController = FindObjectOfType<GunController>();
 		alarmManager = FindObjectOfType<AlarmManager>();
+
+
 		enginAudio = GameObject.Find ("MasterController/EnginAudio").GetComponent<AudioSource> ();
-		checkPointRocks = rockCount;
+		effectAudio = GameObject.Find ("MasterController/EffectsAudio").GetComponent<AudioSource> ();
+		masterAudio = GameObject.Find ("MasterController/Master Audio").GetComponent<AudioSource> ();
+		speakAudio = GameObject.Find ("MasterController/CharactorAudio").GetComponent<AudioSource> ();
+		turboAudio = GameObject.Find ("MasterController/TurboAudio").GetComponent<AudioSource> ();
+
 		CM1 = FindObjectOfType<CinemachineVirtualCamera>();
-
-		canvas = GameObject.Find ("Canvas");
+		canvas = GameObject.Find("Canvas");
 		loadingPage = GameObject.Find("gameLoading");
-		musicAudio = GameObject.Find ("BackGroundMusic");
-		if(!musicAudio == null)
-			musicAudio.GetComponent<AudioSource> ().Stop ();
+		musicAudio = GameObject.Find("BackGroundMusic");
 
-
+		checkPointRocks = rockCount;
+		
 		bulletCount = PlayerPrefs.GetInt ("Bullet");
 		shieldCount = PlayerPrefs.GetInt ("Shield");
 
-		//PlayerPrefs.SetInt ("Bullet",0);
-		//PlayerPrefs.SetInt ("Shield",0);
-
-
 		LoadCheckPoint ();
 		Setdata ();
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+		MuteSound();
+
 	}
 
 	public void Setdata()
@@ -79,11 +74,48 @@ public class MasterController : MonoBehaviour {
 		rockText.text = rockCount + "";
 	}
 
+	public void IncreaseHeart(int num)
+    {
+		if (heartCount <= 0)
+			heartCount = 0;
+		heartCount += num;
+		heartText.text = heartCount + "";
+    }
+	public void DecreaseHeart(int damage)
+    {
+
+		
+		if (heartCount > 0 && canDie)
+		{
+			canDie = false;
+			heartCount -= damage;
+			Debug.Log("Damage");
+			effectAudio.clip = gameSounds[2];
+			effectAudio.Play();
+
+			if (heartCount <=0)
+            {
+				Debug.Log("Dead");
+				heartText.text = "0";
+				endGame();
+			}
+			else
+            {
+				Debug.Log("Decrease");
+				heartText.text = heartCount + "";
+				player = GameObject.FindGameObjectWithTag("player");
+				playerAnim = player.GetComponent<Animator>();
+				playerAnim.Play("Damage");
+				StartCoroutine("DamageDelay");
+			}
+		
+		}
+
+	}
 
 	public void endGame()
 	{
-		if(canDie)
-		{
+		 
 			canDie = false;
 			Debug.Log("Game Over");
 			deadCount++;
@@ -94,7 +126,10 @@ public class MasterController : MonoBehaviour {
 			SaveData();
 			PlayerPrefs.SetInt("totalDead", PlayerPrefs.GetInt("totalDead") + 1);
 			alarmManager.PlayCharactorVoice(Random.Range(0,5));
-		}
+
+			turboSc.backJoint.enabled = false;
+			turboSc.frontJoint.enabled = false;
+			
 	}
 
 	public void FinishGame()
@@ -147,7 +182,7 @@ public class MasterController : MonoBehaviour {
 
 
 		turbo = GameObject.Find ("TakeOff");
-		Turbo turboSc = (Turbo)turbo.GetComponent (typeof(Turbo));
+		turboSc = (Turbo)turbo.GetComponent (typeof(Turbo));
 		turboSc.SetTaregt ();
 
 		if (gunController.gunIsUsed) {
@@ -173,14 +208,6 @@ public class MasterController : MonoBehaviour {
 		if(shieldCount<PlayerPrefs.GetInt("Shield"))
 			PlayerPrefs.SetInt("Shield", shieldCount);
 
-		
-
-		//int Cups = (Mathf.RoundToInt(motor.transform.position.x/10));
-		//Debug.Log(" My Cups : " + Cups);
-		/*if (PlayerPrefs.GetInt("Cups") < Cups)
-		{
-			PlayerPrefs.SetInt("Cups", Cups);
-		}*/
 	}
 
 	public IEnumerator LoadingDelay()
@@ -190,13 +217,34 @@ public class MasterController : MonoBehaviour {
 		loadingPage.SetActive(false);
 	}
 
+	public IEnumerator DamageDelay()
+	{
+		yield return new WaitForSeconds(1.5f);
+		canDie = true;
+	}
+
 	public void MuteSound()
 
 	{
-		enginAudio = GameObject.FindGameObjectWithTag ("MasterController/EngineAudio").GetComponent<AudioSource> ();
-		masterAudio.mute = !masterAudio.mute;
-		enginAudio.mute = !enginAudio.mute;
-		speakAudio.mute = !speakAudio.mute;
+		if (PlayerPrefs.GetInt("sound") == 1)
+        {
+			Debug.Log("mute");
+			masterAudio.mute = true;
+			enginAudio.mute = true;
+			speakAudio.mute = true;
+			effectAudio.mute = true;
+			turboAudio.mute = true;
+        }
+        else
+        {
+			Debug.Log("not mute");
+			masterAudio.mute = false;
+			enginAudio.mute = false;
+			speakAudio.mute = false;
+			effectAudio.mute = false;
+			turboAudio.mute = false;
+		}
+		
 	}
 
 	private void DestroyCloneObjects()

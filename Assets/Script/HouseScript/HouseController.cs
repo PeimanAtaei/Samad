@@ -12,11 +12,12 @@ public class HouseController : MonoBehaviour
 	public int[] prefabePrice;
 	public Transform instantiatePoint;
 
-	public int coinCount,shieldCount,bulletCount,prefabeNum = 0;
+	public int coinCount,shieldCount,bulletCount,prefabeNum = 0,donationType;
 	private string name;
 
 	public GameObject vehicleSelect,vehicleCancel,vehicleBuy;
 	public Text coinText,shieldText,bulletText,vehiclePriceText;
+	public GameObject[] donateAlarms;
 
 	// products
 	private string selectedProductName;
@@ -61,6 +62,15 @@ public class HouseController : MonoBehaviour
 	public void OnPurchesClick()
 	{
 		houseBTNAnim.Play ("PurchesMoveUp");
+	}
+
+
+
+	// Kindness Select ---------------------------------------------------------------------------
+
+	public void OnKindnessClicked()
+	{
+		houseBTNAnim.Play("DonateMoveUp");
 	}
 
 
@@ -294,23 +304,66 @@ public class HouseController : MonoBehaviour
 	
 
 
+	// Donation --------------------------------------------------------------------------------
+
+	
+
 	// Alarms ----------------------------------------------------------------------------------
 
 
 	public void CreateAlarm(string type)
 	{
+		donateAlarms[0].SetActive(false);
+		donateAlarms[1].SetActive(false);
+		donateAlarms[2].SetActive(false);
+		donateAlarms[3].SetActive(false);
+
 		switch (type)
 		{
-		case "showCoinAlarm":
-			{
-				alarmsAnim.Play ("CoinAlarmShow");
-				break;
-			}
-		case "closeCoinAlarm":
-			{
-				alarmsAnim.Play ("CoinAlarmClose");
-				break;
-			}
+			case "showCoinAlarm":
+				{
+					alarmsAnim.Play ("CoinAlarmShow");
+					break;
+				}
+			case "closeCoinAlarm":
+				{
+					alarmsAnim.Play ("CoinAlarmClose");
+					break;
+				}
+			case "FreeDonate":
+                {
+					donationType = 1;
+					donateAlarms[0].SetActive(true);
+					alarmsAnim.Play("DonateAlarmShow");
+					break;
+                }
+			case "CharactorDonate":
+				{
+					donationType = 2;
+					donateAlarms[1].SetActive(true);
+					alarmsAnim.Play("DonateAlarmShow");
+					break;
+				}
+			case "StrangerDonate":
+				{
+					donationType = 3;
+					donateAlarms[2].SetActive(true);
+					alarmsAnim.Play("DonateAlarmShow");
+					break;
+				}
+			case "MarcoDonate":
+				{
+					donationType = 4;
+					donateAlarms[3].SetActive(true);
+					alarmsAnim.Play("DonateAlarmShow");
+					break;
+				}
+			case "CloseDonate":
+				{
+					alarmsAnim.Play("DonateAlarmClose");
+					break;
+				}
+
 		}
 			
 	}

@@ -18,15 +18,15 @@ public class LevelButtonSc : MonoBehaviour
 		mapManager = FindObjectOfType<MapManager> ();
 		GetCurrentLevel ();
 		ShowStarts ();
-		startDialog = GameObject.Find ("Canvas/StartDialog").GetComponent<Animator> ();
-		startDialogTitle = GameObject.Find ("Canvas/StartDialog/Title").GetComponent<Text> ();
+		startDialog = GameObject.Find ("Canvas/UI Elements/StartDialog").GetComponent<Animator> ();
+		startDialogTitle = GameObject.Find ("Canvas/UI Elements/StartDialog/Title").GetComponent<Text> ();
 
     }
 		
 
 	private void GetCurrentLevel()
 	{
-		Debug.Log (PlayerPrefs.GetInt("currentLevel"));
+		Debug.Log ("currentLevel: "+PlayerPrefs.GetInt("currentLevel"));
 		if(levelNumber-1 <= (PlayerPrefs.GetInt("currentLevel")))
 		{
 			scale = new Vector2 (1,1);
@@ -47,8 +47,16 @@ public class LevelButtonSc : MonoBehaviour
 
 	public void OnSelectLevel()
 	{
-		startDialog.Play ("OpenStartDialog");
-		mapManager.SelectedLevel = levelNumber;
-		startDialogTitle.text = "LEVEL " + levelNumber;
+		if(levelNumber == 666)
+        {
+			mapManager.UpdatedAlarm(1);
+        }
+        else
+        {
+			startDialog.Play("OpenStartDialog");
+			mapManager.SelectedLevel = levelNumber;
+			startDialogTitle.text = "LEVEL " + levelNumber;
+		}
+		
 	}
 }

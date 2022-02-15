@@ -4,37 +4,22 @@ using UnityEngine;
 
 public class PlayerBody : MonoBehaviour {
 
-	private MasterController masterController;
-	private GameObject motory;
-	private bool canDie = true;
+	private MasterController master;
 
 
 	// Use this for initialization
 	void Start () {
-		masterController = FindObjectOfType<MasterController>();
+		master = FindObjectOfType<MasterController>();
+		Debug.Log(master.canDie+"");
 	}
 	
 	
 	void OnTriggerEnter2D(Collider2D other)
 	{
 		
-		if (other.CompareTag("ground") && canDie )
+		if (other.CompareTag("ground") && master.canDie )
 		{
-			canDie = false;
-			masterController.endGame ();
-			Time.timeScale = 0.05f;
-
-			//Destroy (GameObject.Find("motor(Clone)"));
-
-		}
-
-		else if (other.CompareTag("roof") && canDie)
-		{
-			canDie = false;
-			masterController.endGame ();
-			Time.timeScale = 0.05f;
-
-			//Destroy (GameObject.Find("motor(Clone)"));
+			master.DecreaseHeart(10);
 		}
 			
 	}
