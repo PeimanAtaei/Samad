@@ -7,7 +7,7 @@ public class LevelButtonSc : MonoBehaviour
 {
     // Start is called before the first frame update
 	private MapManager mapManager;
-	public int levelNumber;
+	public int levelNumber,updateNumber;
 	public int star;
 	public GameObject[] stars;
 	private Vector2 scale;
@@ -47,7 +47,7 @@ public class LevelButtonSc : MonoBehaviour
 
 	public void OnSelectLevel()
 	{
-		if(levelNumber == 666)
+		if(levelNumber == updateNumber)
         {
 			mapManager.UpdatedAlarm(1);
         }

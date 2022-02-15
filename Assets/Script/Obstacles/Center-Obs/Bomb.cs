@@ -18,20 +18,24 @@ public class Bomb : MonoBehaviour
     {
         masterController = FindObjectOfType<MasterController>();
         anim = gameObject.GetComponent<Animator>();
-        audioSource = GameObject.Find("MasterController/EffectsAudio").GetComponent<AudioSource>();
+        audioSource = GameObject.Find("MasterController/Master Audio").GetComponent<AudioSource>();
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (canDestroy)
         {
+            Debug.Log(other.tag+"");
             Debug.Log("Explotion");
             canDestroy = false;
             anim.Play(animName + "Explotion");
             audioSource.clip = sound;
             audioSource.Play();
             //masterController.endGame();
-            masterController.DecreaseHeart(damage);
+            if(other.tag == "player")
+            {
+                masterController.DecreaseHeart(damage);
+            }
             //Time.timeScale = 0.05f;
         }
     }
